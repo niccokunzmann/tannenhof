@@ -95,7 +95,10 @@ for language in languages:
                     result = eval(s)
                 except:
                     print '-' * 40
-                    print s
+                    try:
+                        print s
+                    except:
+                        print repr(s)
                     print '\b'
                     raise
 ##                print repr(m.group('start'))
