@@ -1,6 +1,6 @@
 ﻿<html>
 	<body>
-	{{{include('header.html.t')}}}
+	{{{include('top.html.t')}}}
 		<a name="preise"></a>
 		<table>
 			<tbody>
@@ -35,5 +35,6 @@
 		<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&k_id=57" width="100%">
 			Verf&uuml;gbarkeit der Ferienwohnung 2 f&uuml; 4 Personen
 		</iframe>
+{{{include('bottom.html.t')}}}
 	</body>
 </html>
