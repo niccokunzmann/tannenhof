@@ -13,6 +13,11 @@ import os
 import re
 import time
 
+languages = ['de', 'en', 'ru']
+
+outputDir = '../output'
+inputDir = '.'
+
 def read(fileName):
     with open(fileName, 'rb') as f:
         content = f.read()
@@ -27,11 +32,10 @@ def write(path, content, utf8):
     with open(path, 'wb') as f:
         f.write(content)
 
-
 # useful functions
 
-outputDir = '../output'
-inputDir = '.'
+def choose(de, en, ru):
+    return locals()[language]
 
 def include(filename):
     print ('including ' + str(filename))
@@ -58,7 +62,7 @@ for dirPath, dirNames, fileNames in os.walk(outputDir, topdown = False):
 
 pythonRegex = re.compile(u'^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<end>.*?)$', re.DOTALL)
 
-for language in ['de', 'en', 'ru']:
+for language in languages:
 
     for dirPath, dirNames, fileNames in os.walk(inputDir):
         relativeOutputDir = outputDir + '/' + dirPath[len(inputDir):]

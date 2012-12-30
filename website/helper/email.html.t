@@ -1,1 +1,1 @@
-nocon@t-online.de
+<a href="mailto:nocon@t-online.de">nocon@t-online.de</a>
