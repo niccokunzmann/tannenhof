@@ -30,8 +30,8 @@
 					<li><a href="{{{languageName('umgebung.html')}}}#konsum">Einkauf & Essen</a></li>
 				</ul>
 			</li>
-			<li><a href="{{{languageName('kontakt.html')}}}">Kontakt</a></li>
-			<li><a href="{{{languageName('impressum.html')}}}">Impressum</a></li>
+			<li><a href="{{{languageName('kontakt.html')}}}">KontaktКонтакт</a></li>
+			<li><a href="{{{languageName('impressum.html')}}}">ImpressumАвтор</a></li>
 		</ul>
 		<div></div>
 	</div>
