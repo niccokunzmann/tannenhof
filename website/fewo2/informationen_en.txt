@@ -1,13 +1,13 @@
 ﻿		<ul>
-			Information about the vacation apartment:
+			Information about the vacation apartments:
 			<li>
 				Livingroom with Satellite-TV, radio, telephone and kitchenet with dishwasher, 
 				cooking plates, coffee maker, water boiler, toaster and refrigerator
 			</li>
-			<li>Sleepingroom with king-size bed</li>
+			<li>Sleepingroom with king-size bed and bunk bed</li>
 			<li>Bathroom with shower, toilet, hair dryer</li>
 			<li>Parking lot at the house. Bicycles and winter sports equipment can be stored under-cover</li>
 			<li>Garden furnitures, barbecue, table-tennis, sledges, toys, chess in the garden</li>
-			<li>Towels and bedlinen are inclusive. Weekly change.</li>			
+			<li>Towels and bedlinen are inclusive. Weekly change.</li>
 			<li>Sauna and washing machine use against charges.</li>
 		</ul>
