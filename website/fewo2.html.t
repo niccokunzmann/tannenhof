@@ -2,6 +2,7 @@
 	<head>
 	</head>
 	<body>
+	{{{include('header.html.t')}}}
 		<img src="http://www.afdw.de/tossens/images/grundriss.jpg">
 		<img src="bilder/fewo2/blick.jpg" alt="Der Blick aus der Ferienwohnung 1">
 		<img src="bilder/fewo2/wohnraum.jpg" alt="Wohnraum mit Sofa">

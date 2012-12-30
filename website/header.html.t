@@ -7,18 +7,18 @@
 
 		<li><a href="#Platzhalter">Wohnungen</a>
 		  <ul>
-			<li><a href="#Platzhalter">Ferienwohnung 1</a></li>
-			<li><a href="#Platzhalter">Ferienwohnung 2</a></li>
-			<li><a href="#Platzhalter">Preise</a></li>
-			<li><a href="#Platzhalter">Verf&uuml;gbarkeit</a></li>
+			<li><a href="{{{languageName('fewo1.html')}}}">Ferienwohnung 1</a></li>
+			<li><a href="{{{languageName('fewo2.html')}}}">Ferienwohnung 2</a></li>
+			<li><a href="{{{languageName('preise.html')}}}#preise">Preise</a></li>
+			<li><a href="{{{languageName('preise.html')}}}#verfuegbarkeit">Verf&uuml;gbarkeit</a></li>
 		  </ul>
 		</li>
 
-		<li><a href="#Platzhalter">Preise</a></li>
+		<li><a href="{{{languageName('preise.html')}}}#verfuegbarkeit">Preise</a></li>
 
 		<li><a href="#Platzhalter">Anreise</a></li>
 
-		<li><a href="#Platzhalter">Angebote vor Ort</a>
+		<li><a href="{{{languageName('umgebung.html')}}}">Umgebung</a>
 			<ul>
 				<li><a href="#Platzhalter">Kultur</a></li>
 				<li><a href="#Platzhalter">Sehensw&uuml;rdigkeiten</a></li>

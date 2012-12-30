@@ -1,5 +1,7 @@
 ﻿<html>
 	<body>
+	{{{include('header.html.t')}}}
+		<a name="preise"></a>
 		<table>
 			<tbody>
 				<th colspacing="4">Preise pro Wohnung in &#8364; incl. MwSt. f&uuml;r 2013</th>
@@ -26,6 +28,7 @@
 				</tr>
 			</tbody>
 		</table>
+		<a name="verfuegbarkeit"></a>
 		<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&k_id=56" width="100%">
 			Verf&uuml;gbarkeit der Ferienwohnung 1 f&uuml; 2 Personen
 		</iframe>
