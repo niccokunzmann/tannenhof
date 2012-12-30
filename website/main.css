@@ -112,7 +112,7 @@ div#clear{
   ul#navigation li ul {
     margin: 0; padding: 0;
     position: absolute;
-    top: 1.5em; left: =;
+    padding-top: 0.2em; left: 0;
     display: none;  /* Unternavigation ausblenden */
   }
 
