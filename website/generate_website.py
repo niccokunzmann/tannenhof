@@ -23,7 +23,7 @@ def read(fileName):
 
 def write(path, content, utf8):
     if utf8:
-        content = content.encode('UTF8')
+        content = content.encode('UTF-8-SIG')
     with open(path, 'wb') as f:
         f.write(content)
 
@@ -35,7 +35,7 @@ inputDir = '.'
 
 def include(filename):
     print ('including ' + str(filename))
-    return read(os.path.join(inputDir, filename))
+    return read(os.path.join(inputDir, filename))[0]
 
 def languageName(fileName, lang = None):
     if lang is None:
@@ -93,7 +93,7 @@ for language in ['de', 'en', 'ru']:
 ##                print repr(m.group('start'))
 ##                print repr(result)
 ##                print repr(m.group('end'))
-                content = u'%s%s%s' % (m.group('start'), result, m.group('end'))
+                content = m.group('start') + result + m.group('end')
             write(newFilePath, content, utf8)
         
 
