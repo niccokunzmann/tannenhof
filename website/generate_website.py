@@ -74,7 +74,7 @@ for language in ['de', 'en', 'ru']:
                 except:
                     print '-' * 40
                     print s
-                    time.sleep(5)
+                    print '\b'
                     raise
                 content = m.group('start') + str(result) + m.group('end')
             with open(newFilePath, 'wb') as f:
