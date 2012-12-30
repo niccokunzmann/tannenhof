@@ -1,5 +1,6 @@
 <h1 id="Platzhalter" class="header">Tannenhof</h1>
 ﻿<link rel="stylesheet" type="text/css" href="navigation.css">
+<link rel="stylesheet" type="text/css" href="main.css">
 <div class="navigation">
 	<ul id="navigation">
 		<li><a href="#Platzhalter">Villa Tannenhof</a></li>
@@ -29,4 +30,13 @@
 	</ul>
 	<div></div>
 </div>
+<div id="page">
+	<div id="content">
+		<script type="text/javascript">
+function onLoad()
+{
+	//document.write('</div></div>');
+}
+window.onload = onLoad
+		</script>
 

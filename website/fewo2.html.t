@@ -2,7 +2,7 @@
 	<head>
 	</head>
 	<body>
-	{{{include('header.html.t')}}}
+	{{{include('top.html.t')}}}
 		<img src="http://www.afdw.de/tossens/images/grundriss.jpg">
 		<img src="bilder/fewo2/blick.jpg" alt="Der Blick aus der Ferienwohnung 1">
 		<img src="bilder/fewo2/wohnraum.jpg" alt="Wohnraum mit Sofa">
@@ -19,5 +19,6 @@
 			<li>Handt&uuml;cher und Bettw&auml;sche sind inklusive. W&ouml;chentlicher Wechsel. </li>
 			<li>Sauna und Waschmaschinennutzung gegen Geb&uuml;hr</li>
 		</ul>
+	{{{include('bottom.html.t')}}}
 	</body>
 </html>

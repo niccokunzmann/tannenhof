@@ -4,7 +4,7 @@
 	</head>
 	<body>
 		<div id="page">
-			{{{include('header.html.t')}}}
+			{{{include('top.html.t')}}}
 			<div id="content">
 				{{{include('umgebung.html.t')}}}
 			</div>
