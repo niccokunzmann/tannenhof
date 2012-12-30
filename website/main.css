@@ -59,7 +59,7 @@ h1.header{
   ul#navigation li ul {
     margin: 0; padding: 0;
     position: absolute;
-    top: 1.5em; left: 0.2em;
+    top: 1.7em; left: 0.2em;
     display: none;  /* Unternavigation ausblenden */
   }
 
@@ -75,7 +75,7 @@ h1.header{
   ul#navigation a, ul#navigation span {
     display: block;
     width: 10.0em;  /* Breite den in li enthaltenen Elementen zuweisen */
-    padding: 0.1em 0.3em;
+    padding: 0.2em 0.1em;
     text-decoration: none; font-weight: bold;
     border: 0;
     border-left-color: white; border-top-color: white;
