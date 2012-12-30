@@ -1,9 +1,9 @@
 ﻿
 	<div class="header">
 	<h1 id="Platzhalter">Tannenhof</h1>
-	<div class="flag"> <a href="{{{languageName(webFilePath, 'de')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}"/></a> </div>
-	<div class="flag"> <a href="{{{languageName(webFilePath, 'en')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}"/></a> </div>
 	<div class="flag"> <a href="{{{languageName(webFilePath, 'ru')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}"/></a> </div>
+	<div class="flag"> <a href="{{{languageName(webFilePath, 'en')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}"/></a> </div>
+	<div class="flag"> <a href="{{{languageName(webFilePath, 'de')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}"/></a> </div>
 	
 	<div id="clear"></div>
 	
