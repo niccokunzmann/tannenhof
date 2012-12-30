@@ -1,5 +1,6 @@
-
-	<div class="navigation">
+﻿
+	<div class="header">
+	<h1 id="Platzhalter">Tannenhof</h1>
 		<ul id="navigation">
 			<li><a href="#Platzhalter">Villa Tannenhof</a></li>
 
