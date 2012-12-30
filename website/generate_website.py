@@ -65,7 +65,8 @@ pythonRegex = re.compile(u'^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<e
 for language in languages:
 
     for dirPath, dirNames, fileNames in os.walk(inputDir):
-        relativeOutputDir = outputDir + '/' + dirPath[len(inputDir):]
+        webDirPath = dirPath[len(inputDir):]
+        relativeOutputDir = outputDir + '/' + webDirPath
         if not os.path.isdir(dirPath):
             os.makedirs(dirPath)
         for dirName in dirNames:
@@ -76,8 +77,11 @@ for language in languages:
             adaptFile = fileName.endswith('.t')
             filePath = os.path.join(dirPath, fileName)
             if adaptFile:
+                webFileName = fileName[:-2]
+                webFilePath = os.path.join(webDirPath, webFileName \
+                                           ).replace('\\', '/')
                 newFilePath = os.path.join(relativeOutputDir,\
-                                           languageName(fileName[:-2]))
+                                           languageName(webFileName))
                 print('from: %s \n\t%s' % (filePath, newFilePath))
             else:
                 newFilePath = os.path.join(relativeOutputDir, fileName)

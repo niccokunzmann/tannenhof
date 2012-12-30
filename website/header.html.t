@@ -25,6 +25,9 @@
 			</li>
 			<li><a href="{{{languageName('kontakt.html')}}}">Kontakt</a></li>
 			<li><a href="{{{languageName('impressum.html')}}}">Impressum</a></li>
+			<li><a href="{{{languageName(webFilePath, 'de')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}"/></a></li>
+			<li><a href="{{{languageName(webFilePath, 'en')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}"/></a></li>
+			<li><a href="{{{languageName(webFilePath, 'ru')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}"/></a></li>
 		</ul>
 		<div></div>
 	</div>
