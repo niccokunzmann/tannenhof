@@ -59,7 +59,7 @@ h1.header{
   ul#navigation li ul {
     margin: 0; padding: 0;
     position: absolute;
-    top: 1.4em; left: 0.2em;
+    top: 1.5em; left: 0.2em;
     display: none;  /* Unternavigation ausblenden */
   }
 
