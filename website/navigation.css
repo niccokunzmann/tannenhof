@@ -1,9 +1,9 @@
 body {
     font: normal 100.01% Helvetica, Arial, sans-serif;
-    color: black; background-color: #ffffe0;
+    color: black; background-color: white;
   }
 
-  div#frame {
+  div.navigation {
     position: absolute;
     top: 2.8em; left: 2em;
     width: 75em;
@@ -11,7 +11,7 @@ body {
     border: 0;
     background-color: white;
   }
-  html>body #frame {  /* nur fuer moderne Browser! */
+  html>body .navigation {  /* nur fuer moderne Browser! */
     position: fixed;
   }
     

@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="navigation.css">
 <h1 id="Platzhalter">Tannenhof</h1>
 
-<div id="frame">
+<div class="navigation">
 	<ul id="navigation">
 		<li><a href="#Platzhalter">Villa Tannenhof</a></li>
 
