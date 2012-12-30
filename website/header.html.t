@@ -1,6 +1,11 @@
 ﻿
 	<div class="header">
+	<div class="flag"> <a href="{{{languageName(webFilePath, 'de')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}"/></a> </div>
+	<div class="flag"> <a href="{{{languageName(webFilePath, 'en')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}"/></a> </div>
+	<div class="flag"> <a href="{{{languageName(webFilePath, 'ru')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}"/></a> </div>
 	<h1 id="Platzhalter">Tannenhof</h1>
+	<div id="clear"></div>
+	
 
 		<ul id="navigation">
 			<li><a href="{{{languageName('index.html')}}}">Villa Tannenhof</a></li>
@@ -27,9 +32,6 @@
 			</li>
 			<li><a href="{{{languageName('kontakt.html')}}}">Kontakt</a></li>
 			<li><a href="{{{languageName('impressum.html')}}}">Impressum</a></li>
-			<li><a href="{{{languageName(webFilePath, 'de')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}"/></a></li>
-			<li><a href="{{{languageName(webFilePath, 'en')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}"/></a></li>
-			<li><a href="{{{languageName(webFilePath, 'ru')}}}"><img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}"/></a></li>
 		</ul>
 		<div></div>
 	</div>

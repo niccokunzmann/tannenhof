@@ -34,7 +34,7 @@ div#content{
 
 div.header {
 	position: absolute;
-	top: 2.8em;
+	top: 1.5em;
 	border: 0;
 	background-color: white;
 	text-align: center;
@@ -52,7 +52,20 @@ h1{
 	padding:0;
 	margin-bottom: 0.5em;
 }
-  
+
+div.flag{
+	float: left;
+	margin: 0; padding: 0.5em;
+}
+
+div.flag img{
+	height: 1.5em;
+} 
+
+div#clear{
+	clear: both;
+}
+
   div#frame div {
      clear: left;
   }
