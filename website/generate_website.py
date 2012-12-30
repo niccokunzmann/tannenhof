@@ -5,7 +5,7 @@ use the following
     language
     include(filename)
     languageName(filename)
-    languageName(filename, langauge)
+    languageName(filename, language)
 
 '''
 
