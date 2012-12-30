@@ -1,5 +1,7 @@
 ﻿
-	<div class="navigation">
+	<div class="header">
+	<h1 id="Platzhalter">Tannenhof</h1>
+
 		<ul id="navigation">
 			<li><a href="{{{languageName('index.html')}}}">Villa Tannenhof</a></li>
 
