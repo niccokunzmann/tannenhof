@@ -13,6 +13,11 @@ import os
 import re
 import time
 
+languages = ['de', 'en', 'ru']
+
+outputDir = '../output'
+inputDir = '.'
+
 def read(fileName):
     with open(fileName, 'rb') as f:
         content = f.read()
@@ -27,11 +32,10 @@ def write(path, content, utf8):
     with open(path, 'wb') as f:
         f.write(content)
 
-
 # useful functions
 
-outputDir = '../output'
-inputDir = '.'
+def choose(de, en, ru):
+    return locals()[language]
 
 def include(filename):
     print ('including ' + str(filename))
@@ -58,10 +62,11 @@ for dirPath, dirNames, fileNames in os.walk(outputDir, topdown = False):
 
 pythonRegex = re.compile(u'^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<end>.*?)$', re.DOTALL)
 
-for language in ['de', 'en', 'ru']:
+for language in languages:
 
     for dirPath, dirNames, fileNames in os.walk(inputDir):
-        relativeOutputDir = outputDir + '/' + dirPath[len(inputDir):]
+        webDirPath = dirPath[len(inputDir):]
+        relativeOutputDir = outputDir + '/' + webDirPath
         if not os.path.isdir(dirPath):
             os.makedirs(dirPath)
         for dirName in dirNames:
@@ -72,8 +77,11 @@ for language in ['de', 'en', 'ru']:
             adaptFile = fileName.endswith('.t')
             filePath = os.path.join(dirPath, fileName)
             if adaptFile:
+                webFileName = fileName[:-2]
+                webFilePath = os.path.join(webDirPath, webFileName \
+                                           ).replace('\\', '/')
                 newFilePath = os.path.join(relativeOutputDir,\
-                                           languageName(fileName[:-2]))
+                                           languageName(webFileName))
                 print('from: %s \n\t%s' % (filePath, newFilePath))
             else:
                 newFilePath = os.path.join(relativeOutputDir, fileName)
