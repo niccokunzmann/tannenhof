@@ -1,0 +1,95 @@
+body {
+    color: black; background-color: white;
+    font-size: 100.01%;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0; padding: 1em 0;
+    text-align: center;  /* Zentrierung im Internet Explorer */
+  }
+  
+div#page{
+	text-align: left;
+	margin: 0 auto;
+    width: 1000px;
+	padding: 0.5em;
+}
+
+div#content{
+	position: relative;
+	top: 2.8em;
+	margin-top: 0.5em;
+	z-index: 0;
+}
+
+
+div.navigation {
+	position: absolute;
+	top: 2.8em;
+	border: 0;
+	background-color: white;
+	text-align: center;
+	margin-bottom: 0.5em;
+	z-index: 1;
+
+}
+html>body .navigation .header {  /* nur fuer moderne Browser! */
+	position: fixed;
+}
+   
+h1.header{
+	position: absolute;
+	top: -0.5em;
+}
+  
+  div#frame div {
+     clear: left;
+  }
+  ul#navigation {
+    margin: 0; padding: 0;
+    text-align: center;
+  }
+
+  ul#navigation li {
+  font-size: 90%;
+    list-style: none;
+    float: left;  /* ohne width - nach CSS 2.1 erlaubt */
+    position: relative;
+    margin-right: 0.2em; padding: 0;
+  }
+
+  ul#navigation li ul {
+    margin: 0; padding: 0;
+    position: absolute;
+    top: 1.4em; left: 0.2em;
+    display: none;  /* Unternavigation ausblenden */
+  }
+
+  ul#navigation li:hover ul {
+    display: block;  /* Unternavigation in modernen Browsern einblenden */
+  }
+  ul#navigation li ul li {
+    float: none;
+    display: block;
+    margin-bottom: 0.2em;
+  }
+
+  ul#navigation a, ul#navigation span {
+    display: block;
+    width: 10.0em;  /* Breite den in li enthaltenen Elementen zuweisen */
+    padding: 0.1em 0.3em;
+    text-decoration: none; font-weight: bold;
+    border: 0;
+    border-left-color: white; border-top-color: white;
+    color: maroon; background-color: #ccc;
+  }
+
+  ul#navigation a:hover, ul#navigation span, li a#aktuell {
+    border-color: white;
+    border-left-color: black; border-top-color: black;
+    color: white; background-color: gray;
+  }
+  li a#aktuell {  /* aktuelle Rubrik kennzeichnen */
+    color: maroon; background-color: silver;
+  }
+  ul#navigation li ul span {  /* aktuelle Unterseite kennzeichnen */
+    background-color: maroon;
+  }
