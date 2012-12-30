@@ -15,12 +15,12 @@
 			  <ul>
 				<li><a href="{{{languageName('fewo1.html')}}}">Ferienwohnung 1</a></li>
 				<li><a href="{{{languageName('fewo2.html')}}}">Ferienwohnung 2</a></li>
-				<li><a href="{{{languageName('preise.html')}}}#preise">Preise</a></li>
+				<li><a href="{{{languageName('preise.html')}}}">Preise</a></li>
 				<li><a href="{{{languageName('preise.html')}}}#verfuegbarkeit">Verf&uuml;gbarkeit</a></li>
 			  </ul>
 			</li>
 
-			<li><a href="{{{languageName('preise.html')}}}#verfuegbarkeit">Preise</a></li>
+			<li><a href="{{{languageName('preise.html')}}}">Preise</a></li>
 
 			<li><a href="{{{languageName('anreise.html')}}}">Anreise</a></li>
 
@@ -31,8 +31,8 @@
 					<li><a href="{{{languageName('umgebung.html')}}}#konsum">Einkauf & Essen</a></li>
 				</ul>
 			</li>
-			<li><a href="{{{languageName('kontakt.html')}}}">Kontakt</a></li>
-			<li><a href="{{{languageName('impressum.html')}}}">Impressum</a></li>
+			<li><a href="{{{languageName('kontakt.html')}}}">KontaktКонтакт</a></li>
+			<li><a href="{{{languageName('impressum.html')}}}">ImpressumАвтор</a></li>
 		</ul>
 		<div></div>
 	</div>
