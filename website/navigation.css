@@ -3,7 +3,7 @@ body {
     color: black; background-color: white;
   }
 
-  div#frame {
+  div.navigation {
     position: absolute;
     top: 2.8em; left: 2em;
     width: 75em;
@@ -11,7 +11,7 @@ body {
     border: 0;
     background-color: white;
   }
-  html>body #frame {  /* nur fuer moderne Browser! */
+  html>body .navigation {  /* nur fuer moderne Browser! */
     position: fixed;
   }
     
