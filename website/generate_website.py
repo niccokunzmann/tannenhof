@@ -13,6 +13,21 @@ import os
 import re
 import time
 
+def read(fileName):
+    with open(fileName, 'rb') as f:
+        content = f.read()
+    try:
+        return content.decode('UTF-8'), True
+    except UnicodeDecodeError:
+        return content, False
+
+def write(path, content, utf8):
+    if utf8:
+        content = content.encode('UTF8')
+    with open(path, 'wb') as f:
+        f.write(content)
+
+
 # useful functions
 
 outputDir = '../output'
@@ -20,7 +35,7 @@ inputDir = '.'
 
 def include(filename):
     print ('including ' + str(filename))
-    return open(os.path.join(inputDir, filename)).read()
+    return read(os.path.join(inputDir, filename))
 
 def languageName(fileName, lang = None):
     if lang is None:
@@ -41,7 +56,7 @@ for dirPath, dirNames, fileNames in os.walk(outputDir, topdown = False):
 
 # generate new output
 
-pythonRegex = re.compile('^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<end>.*?)$', re.DOTALL)
+pythonRegex = re.compile(u'^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<end>.*?)$', re.DOTALL)
 
 for language in ['de', 'en', 'ru']:
 
@@ -62,8 +77,7 @@ for language in ['de', 'en', 'ru']:
                 print('from: %s \n\t%s' % (filePath, newFilePath))
             else:
                 newFilePath = os.path.join(relativeOutputDir, fileName)
-            with open(filePath, 'rb') as f:
-                content = f.read()
+            content, utf8 = read(filePath)
             # replace content
             while adaptFile:
                 m = pythonRegex.search(content)
@@ -76,9 +90,15 @@ for language in ['de', 'en', 'ru']:
                     print s
                     print '\b'
                     raise
-                content = m.group('start') + str(result) + m.group('end')
-            with open(newFilePath, 'wb') as f:
-                f.write(content)
+##                print repr(m.group('start'))
+##                print repr(result)
+##                print repr(m.group('end'))
+                content = u'%s%s%s' % (m.group('start'), result, m.group('end'))
+            write(newFilePath, content, utf8)
         
+
+print ('')
+print ('OK')
+time.sleep(1)
 
 
