@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="navigation.css">
-<h1 id="Platzhalter">Tannenhof</h1>
+
+<h1 id="Platzhalter" class="header">Tannenhof</h1>
 
 <div class="navigation">
 	<ul id="navigation">
