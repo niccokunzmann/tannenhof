@@ -14,7 +14,7 @@
 
 			<li><a href="{{{languageName('preise.html')}}}#verfuegbarkeit">Preise</a></li>
 
-			<li><a href="#Platzhalter">Anreise</a></li>
+			<li><a href="{{{languageName('anreise.html')}}}">Anreise</a></li>
 
 			<li><a href="{{{languageName('umgebung.html')}}}">Umgebung</a>
 				<ul>
