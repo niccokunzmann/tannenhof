@@ -13,7 +13,7 @@
 					{{{choose('', '', u'г.')}}}
 				</td>
 				<tr>
-					<td>{{{choose('Mietpreis bei Belegung', 'Price for occupation', u'Основная цена с размещением')}}}</td>
+					<td></td>
 					<td>{{{choose('1 Woche', '1 Week', u'1 Неделя')}}}</td>
 					<td>{{{choose('1 Tag', '1 Day', u'1 День')}}}</td>
 					<td></td>
@@ -26,12 +26,12 @@
 					<td>{{{choose('mit 3 Personen', u'3 People', u'3 человека')}}}</td>
 					<td>336,00</td>
 					<td>48,00</td>
-					<td>{{{choose('Ferienwohnung 2', u'Appartment 1 + 2', u' Аппатрмент 2')}}}</td>
+					<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Аппатрмент 2')}}}</td>
 				</tr><tr>
 					<td>{{{choose('mit 4 Personen', u'4 People', u'4 человека')}}}</td>
 					<td>371,00</td>
 					<td>53,00</td>
-					<td>{{{choose('Ferienwohnung 2', u'Appartment 1 + 2', u' Аппатрмент 2')}}}</td>
+					<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Аппатрмент 2')}}}</td>
 				</tr>
 			</tbody>
 		</table>

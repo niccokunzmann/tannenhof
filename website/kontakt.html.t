@@ -3,7 +3,7 @@
 	{{{include('top.html.t')}}}
 		<div class="kontakt">Ferienwohnungen "Villa Tannenhof"</div>
 		
-		{{{choose('', '', u'<div class="kontakt">апартаменты «Вилла Танненхоф»</div>')}}}
+		{{{choose('', '', u'<div class="kontakt">Апартаменты «Вилла Танненхоф»</div>')}}}
 
 		<div class="kontakt">J&ouml;rg Kunzmann{{{choose('', '', u', Йорг Кунцманн')}}}</div>
 
