@@ -62,7 +62,7 @@ for language in ['de', 'en', 'ru']:
                 print('from: %s \n\t%s' % (filePath, newFilePath))
             else:
                 newFilePath = os.path.join(relativeOutputDir, fileName)
-            with open(filePath) as f:
+            with open(filePath, 'rb') as f:
                 content = f.read()
             # replace content
             while adaptFile:
@@ -77,7 +77,7 @@ for language in ['de', 'en', 'ru']:
                     time.sleep(5)
                     raise
                 content = m.group('start') + str(result) + m.group('end')
-            with open(newFilePath, 'w') as f:
+            with open(newFilePath, 'wb') as f:
                 f.write(content)
         
 
