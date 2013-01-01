@@ -68,7 +68,7 @@
 
 					<li>
 						<a href="{{{languageName('anreise.html')}}}">
-							{{{choose('Anreise', 'Arrival', u'Приездь')}}}
+							{{{choose('Anreise', 'Arrival', u'Приезд')}}}
 						</a>
 					</li>
 
