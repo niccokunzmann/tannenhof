@@ -26,7 +26,7 @@ vertical-align: baseline;
 
 
 body {
-	color: black; background-color: white;
+	color: black; background-color: rgb(227, 255, 255);/*rgb(220, 245, 178) C6DF9C 187B39;*/
 	font-size: 100.01%;
 	font-family: Helvetica,Arial,sans-serif;
 	margin: 0; padding: 0;
@@ -37,10 +37,10 @@ div#page{
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-	width: 1100px;
     width: 1000px;
-	padding: 0.5em;
+	padding: 0;
 	z-index: 0;
+	background-color: white;
 	
 }
 
@@ -59,7 +59,8 @@ div.header {
 	text-align: center;
 	margin-bottom: 0.5em;
 	z-index: 1;
-	width: 1100px;
+	color: 	rgb(64, 0, 0);
+	width: inherit;
 	
 }
 html>body .header {/* nur fuer moderne Browser! */
@@ -71,12 +72,14 @@ h1{
 	text-align: left;
 	margin:0;
 	padding-left:0.5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.3em;
+	margin-top: 0.2em;
 }
 
 div.flag{
 	float: right;
 	margin: 0; padding: 0.5em;
+	margin-top: 0.2em;
 }
 
 div.flag img{
@@ -91,7 +94,8 @@ div#frame div {
 	 clear: left;
 }
 ul#navigation {
-	margin: 0; padding: 0;
+	margin: 0;
+	margin-left: 1.5em; padding: 0;
 	text-align: center;
 }
 
@@ -126,11 +130,11 @@ ul#navigation a, ul#navigation span {
 	text-decoration: none; font-weight: bold;
 	border: 0;
 	border-left-color: white; border-top-color: white;
-	color: maroon; background-color: #18C639;
+	color: maroon; background-color: #18C639; /*  63784E*/
 }
 
 ul#navigation a:hover, ul#navigation span, li a#aktuell {
-	color: white; background-color: 189C39;
+	color: white; background-color: #189C39;
 }
 li a#aktuell {/* aktuelle Rubrik kennzeichnen */
 	color: maroon; background-color: silver;
@@ -145,9 +149,11 @@ ul#navigation li ul li a{
 
 div#content{
 	position: none;
+	margin: 0.5em;
 	margin-top: 2.3em;
 	padding-top: 0.5em;
 	text-align: left;
+	padding-bottom: 5em;
 }
 
 div#content img {
