@@ -34,17 +34,17 @@
 
 					<li>
 						<a href="{{{languageName('fewo1.html')}}}">
-							{{{choose('Wohnungen', 'Appartments', u'TODO')}}}
+							{{{choose('Wohnungen', 'Appartments', u'Апартаменты')}}}
 						</a>
 						<ul>
 							<li>
 								<a href="{{{languageName('fewo1.html')}}}">
-									{{{choose('Ferienwohnung 1', 'Appartment 1', u'TODO')}}}
+									{{{choose('Ferienwohnung 1', 'Appartment 1', u'Апартамент 1')}}}
 								</a>
 							</li>
 							<li>
 								<a href="{{{languageName('fewo2.html')}}}">
-									{{{choose('Ferienwohnung 2', 'Appartment 2', u'TODO')}}}
+									{{{choose('Ferienwohnung 2', 'Appartment 2', u'Апартамент 2')}}}
 								</a>
 							</li>
 							<li>
@@ -54,7 +54,7 @@
 							</li>
 							<li>
 								<a href="{{{languageName('preise.html')}}}#verfuegbarkeit">
-									{{{choose('Verf&uuml;gbarkeit', 'Availability', u'TODO')}}}
+									{{{choose('Verf&uuml;gbarkeit', 'Availability', u'Доступность')}}}
 								</a>
 							</li>
 						</ul>
@@ -74,34 +74,34 @@
 
 					<li>
 						<a href="{{{languageName('umgebung.html')}}}">
-							{{{choose('Umgebung', 'Area', u'TODO')}}}
+							{{{choose('Umgebung', 'Area', u'Округ')}}}
 						</a>
 						<ul>
 							<li>
 								<a href="{{{languageName('umgebung.html')}}}#kultur">
-									{{{choose('Kultur', '', u'Култура')}}}
+									{{{choose('Kultur', 'Culture', u'Култура')}}}
 								</a>
 							</li>
 							<li>
 								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
-									{{{choose('Sehensw&uuml;rdigkeiten', '', u'Достопримечательности')}}}
+									{{{choose('Sehensw&uuml;rdigkeiten', 'Sights', u'Достопримечательности')}}}
 								</a>
 							</li>
 							<li>
 								<a href="{{{languageName('umgebung.html')}}}#konsum">
-									{{{choose('Einkauf & Essen', 'Groceries & Shopping', u'TODO')}}}
+									{{{choose('Einkauf & Essen', 'Groceries & Shopping', u'Еда и Покупка Товаров')}}}
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a href="{{{languageName('kontakt.html')}}}">
-							{{{choose('Kontakt', 'TODO', u'Контакт')}}}
+							{{{choose('Kontakt', 'Contact', u'Контакт')}}}
 						</a>
 					</li>
 					<li>
 						<a href="{{{languageName('impressum.html')}}}">
-							{{{choose('Impressum', 'TODO', u'Автор')}}}
+							{{{choose('Impressum', 'Imprint', u'Импрессум')}}}
 						</a>
 					</li>
 				</ul>		
