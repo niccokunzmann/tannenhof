@@ -91,9 +91,7 @@ div#clear{
 	clear: both;
 }
 
-div#frame div {
-	 clear: left;
-}
+
 ul#navigation {
 	margin: 0;
 	margin-left: 1.5em; padding: 0;
