@@ -26,18 +26,18 @@ vertical-align: baseline;
 
 
 body {
-    color: black; background-color: white;
-    font-size: 100.01%;
-    font-family: Helvetica,Arial,sans-serif;
-    margin: 0; padding: 0;
-    text-align: center;  /* Zentrierung im Internet Explorer */
-  }
-  
+	color: black; background-color: white;
+	font-size: 100.01%;
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 0; padding: 0;
+	text-align: center;/* Zentrierung im Internet Explorer */
+}
+
 div#page{
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-    width: 1100px;
+	width: 1100px;
 	padding: 0.5em;
 	z-index: 0;
 	
@@ -50,28 +50,21 @@ div#scrollarea{
 	
 }
 
-div#content{
-	position: none;
-	margin-top: 2.8em;
-	padding-top: 0.5em;
-	text-align: left;
-}
-
-
 div.header {
 	position: absolute;
-	top: 1.5em;
+	top: 0em;
 	border: 0;
 	background-color: #187B39;
 	text-align: center;
 	margin-bottom: 0.5em;
 	z-index: 1;
-
+	width: 1100px;
+	
 }
-html>body .header {  /* nur fuer moderne Browser! */
+html>body .header {/* nur fuer moderne Browser! */
 	position: fixed;
 }
-   
+ 
 h1{
 	float: left;
 	text-align: left;
@@ -93,58 +86,88 @@ div#clear{
 	clear: both;
 }
 
-  div#frame div {
-     clear: left;
-  }
-  ul#navigation {
-    margin: 0; padding: 0;
-    text-align: center;
-  }
+div#frame div {
+	 clear: left;
+}
+ul#navigation {
+	margin: 0; padding: 0;
+	text-align: center;
+}
 
-  ul#navigation li {
-  font-size: 90%;
-    list-style: none;
-    float: left;  /* ohne width - nach CSS 2.1 erlaubt */
-    position: relative;
-    margin-right: 0.2em; padding: 0;
-  }
+ul#navigation li {
+	font-size: 90%;
+	list-style: none;
+	float: left;/* ohne width - nach CSS 2.1 erlaubt */
+	position: relative;
+	margin-right: 0.2em; padding: 0;
+}
 
-  ul#navigation li ul {
-    margin: 0; padding: 0;
-    position: absolute;
-    padding-top: 0.2em; left: 0;
-    display: none;  /* Unternavigation ausblenden */
-  }
+ul#navigation li ul {
+	margin: 0; padding: 0;
+	position: absolute;
+	padding-top: 0.2em; left: 0;
+	display: none;/* Unternavigation ausblenden */
+}
 
-  ul#navigation li:hover ul {
-    display: block;  /* Unternavigation in modernen Browsern einblenden */
-  }
-  ul#navigation li ul li {
-    float: none;
-    display: block;
-    margin-bottom: 0.2em;
-  }
+ul#navigation li:hover ul {
+	display: block;/* Unternavigation in modernen Browsern einblenden */
+}
+ul#navigation li ul li {
+	float: none;
+	display: block;
+	margin-bottom: 0.2em;
+}
 
-  ul#navigation a, ul#navigation span {
-    display: block;
-    width: 9.0em;  /* Breite den in li enthaltenen Elementen zuweisen */
-    padding: 0.1em 0.1em;
-    text-decoration: none; font-weight: bold;
-    border: 0;
-    border-left-color: white; border-top-color: white;
-    color: maroon; background-color: #18C639;
-  }
+ul#navigation a, ul#navigation span {
+	display: block;
+	width: 9.0em;/* Breite den in li enthaltenen Elementen zuweisen */
+	padding: 0.1em 0.1em;
+	text-decoration: none; font-weight: bold;
+	border: 0;
+	border-left-color: white; border-top-color: white;
+	color: maroon; background-color: #18C639;
+}
 
-  ul#navigation a:hover, ul#navigation span, li a#aktuell {
-    color: white; background-color: 189C39;
-  }
-  li a#aktuell {  /* aktuelle Rubrik kennzeichnen */
-    color: maroon; background-color: silver;
-  }
-  ul#navigation li ul span {  /* aktuelle Unterseite kennzeichnen */
-    background-color: maroon;
-  }
-  
-  ul#navigation li ul li a{
+ul#navigation a:hover, ul#navigation span, li a#aktuell {
+	color: white; background-color: 189C39;
+}
+li a#aktuell {/* aktuelle Rubrik kennzeichnen */
+	color: maroon; background-color: silver;
+}
+ul#navigation li ul span {/* aktuelle Unterseite kennzeichnen */
+	background-color: maroon;
+}
+
+ul#navigation li ul li a{
 	width: 10.0em;
-  }
+}
+
+div#content{
+	position: none;
+	margin-top: 2.3em;
+	padding-top: 0.5em;
+	text-align: left;
+}
+
+div#content img {
+	height: 400;
+	padding: 0.25em;
+}
+
+div.image {
+	width: 100%;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+
+div.image img {
+	padding: 0.25;
+}
+
+div.impressum {
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}

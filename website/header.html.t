@@ -106,5 +106,13 @@
 			</li>
 		</ul>
 		
+		<!-- Titel -->
+		
+		<script type="text/javascript">
+<!--
+document.title = "{{{choose('Villa Tannenhof', 'Villa Tannenhof', u'Вилла Танненхоф')}}}";
+//-->
+		</script>
+		
 	</div>
 
