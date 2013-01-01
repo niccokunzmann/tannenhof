@@ -1,29 +1,30 @@
 ﻿
-<div class="header">
+	<div class="header">
 
-	<h1 id="Platzhalter">Tannenhof</h1>
+		<h1 id="Platzhalter">Tannenhof</h1>
 
-	<!-- Flaggen der Laender -->
+		<!-- Flaggen der Laender -->
+		
+		<div class="flag">
+			<a href="{{{languageName(webFilePath, 'ru')}}}">
+				<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}" alt="Русский"/>
+			</a>
+		</div>
+		<div class="flag">
+			<a href="{{{languageName(webFilePath, 'en')}}}">
+				<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}" alt="English"/>
+			</a>
+		</div>
+		<div class="flag">
+			<a href="{{{languageName(webFilePath, 'de')}}}">
+				<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}" alt="Deutsch"/>
+			</a>
+		</div>
+		
+		<!-- Navigation -->
 	
-	<div class="flag">
-		<a href="{{{languageName(webFilePath, 'ru')}}}">
-			<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}" alt="Русский"/>
-		</a>
-	</div>
-	<div class="flag">
-		<a href="{{{languageName(webFilePath, 'en')}}}">
-			<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}" alt="English"/>
-		</a>
-	</div>
-	<div class="flag">
-		<a href="{{{languageName(webFilePath, 'de')}}}">
-			<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'de')}}}" alt="Deutsch"/>
-		</a>
-	</div>
-	
-	<!-- Navigation -->
-	
-	<div id="clear"></div>
+		<div id="clear"></div>
+		
 		<ul id="navigation">
 			<li>
 				<a href="{{{languageName('index.html')}}}">
@@ -104,6 +105,6 @@
 				</a>
 			</li>
 		</ul>
-		<div></div>
+		
 	</div>
 
