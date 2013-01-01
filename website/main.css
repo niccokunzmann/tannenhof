@@ -150,8 +150,7 @@ div#content{
 	text-align: left;
 }
 
-div#content img {
-	height: 400px;
+div#content img {	
 	padding: 0.25em;
 }
 
@@ -164,6 +163,7 @@ div.image {
 
 div.image img {
 	padding: 0.25;
+	height: 400px;
 }
 
 div.impressum {
@@ -175,4 +175,9 @@ div.impressum {
 
 td {
 	padding-right: 1em;
+}
+
+img.googlemapsframe {
+	height: 350px;
+	width: 425px;
 }
