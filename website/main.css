@@ -74,6 +74,7 @@ h1{
 	padding-left:0.5em;
 	margin-bottom: 0.3em;
 	margin-top: 0.2em;
+	font-family: Gabriola,MV Boli,Segoe Print,Vijaya,Cataneo BT,Edwardian Script ITC,Tiranti Solid LET,Monotype Corsiva,Angsana New,Arial,Times New Roman;
 }
 
 div.flag{
@@ -90,9 +91,7 @@ div#clear{
 	clear: both;
 }
 
-div#frame div {
-	 clear: left;
-}
+
 ul#navigation {
 	margin: 0;
 	margin-left: 1.5em; padding: 0;
