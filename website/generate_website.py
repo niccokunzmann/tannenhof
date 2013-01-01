@@ -92,7 +92,7 @@ for language in languages:
                 if not m: break
                 s = m.group('python')
                 try:
-                    result = eval(s)
+                    result = eval(compile(s, filePath, 'eval'))
                 except:
                     print '-' * 40
                     try:
