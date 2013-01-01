@@ -1,5 +1,5 @@
 ﻿		<ul>
-			Informationen zur Ferienwohnung:
+			Informationen zur Ferienwohnung 2:
 			<li>
 				Wohnzimmer mit Sat-TV, Radio, Telefon und K&uuml;chenzeile mit 
 				Geschirrsp&uuml;ler, Kochplatten, Kaffeemaschine, Wasserkocher, Toaster und K&uuml;hlschrank

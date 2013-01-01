@@ -1,5 +1,5 @@
 ﻿		<ul>
-			Information about the vacation apartments:
+			Information about the vacation apartment 2:
 			<li>
 				Livingroom with Satellite-TV, radio, telephone and kitchenet with dishwasher, 
 				cooking plates, coffee maker, water boiler, toaster and refrigerator
