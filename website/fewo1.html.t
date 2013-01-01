@@ -1,4 +1,3 @@
-
 {{{include('top.html.t')}}}
 		
 					<div class="image">
