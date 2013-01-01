@@ -2,7 +2,20 @@
 	<body>
 		<script type="text/javascript">
 <!--
-window.location = "index_de.html"
+var userLang = navigator.language || navigator.userLanguage; 
+
+if (userLang.indexOf("en") !== -1)
+{
+	window.location = "index_en.html";
+} 
+else if (userLang.indexOf("ru") !== -1)
+{
+	window.location = "index_ru.html";
+} 
+else {
+	window.location = "index_de.html";
+}; 
+
 //-->
 		</script>
 		<a href="index_de.html">Deutsche Tannenhofwebseite</a>
