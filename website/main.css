@@ -149,10 +149,10 @@ ul#navigation li ul li a{
 div#content{
 	position: none;
 	margin: 0.5em;
-	margin-top: 2.3em;
+	margin-top: 3em;
 	padding-top: 0.5em;
 	text-align: left;
-	padding-bottom: 5em;
+	padding-bottom: 3em;
 }
 
 div#content img {	
@@ -167,7 +167,6 @@ div.image {
 }
 
 div.image img {
-	padding: 0.25;
 	height: 400px;
 }
 
