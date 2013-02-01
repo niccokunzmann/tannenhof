@@ -78,6 +78,11 @@
 						</a>
 						<ul>
 							<li>
+								<a href="{{{languageName('umgebung.html')}}}#">
+									{{{choose(u'Gesch&auml;fte', 'Shops', u'Магазины')}}}
+								</a>
+							</li>
+							<li>
 								<a href="{{{languageName('umgebung.html')}}}#kultur">
 									{{{choose('Kultur', 'Culture', u'Култура')}}}
 								</a>
@@ -85,11 +90,6 @@
 							<li>
 								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
 									{{{choose('Sehensw&uuml;rdigkeiten', 'Sights', u'Достоприме-чательности')}}}
-								</a>
-							</li>
-							<li>
-								<a href="{{{languageName('umgebung.html')}}}#konsum">
-									{{{choose('Einkauf & Essen', 'Groceries & Shopping', u'Еда и Покупка Товаров')}}}
 								</a>
 							</li>
 						</ul>

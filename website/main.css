@@ -27,14 +27,14 @@ vertical-align: baseline;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url() format('woff');
+  src: local('Ubuntu'), url(ubuntu-web-font.woff) format('woff');
   /* 
 	Original ubuntu webfont by google:
 		http://themes.googleusercontent.com/static/fonts/ubuntu/v4/mZSs29ggGoaqrCNB3kDfZQ.woff
 		
 	This has to be put into top.html.t
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-		
+
 	*/
 }
 
