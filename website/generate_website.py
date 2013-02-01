@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 '''
 generate files out of .t files
 
@@ -94,12 +95,12 @@ for language in languages:
                 try:
                     result = eval(compile(s, filePath, 'eval'))
                 except:
-                    print '-' * 40
+                    print('-' * 40)
                     try:
-                        print s
+                        print(s)
                     except:
-                        print repr(s)
-                    print '\b'
+                        print(repr(s))
+                    print('\b')
                     raise
 ##                print repr(m.group('start'))
 ##                print repr(result)
