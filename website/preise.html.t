@@ -22,17 +22,17 @@
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
 								<td>301,00</td>
 								<td>43,00</td>
-								<td>{{{choose('Ferienwohnung 1 + 2', u'Appartment 1 + 2', u' Аппатрмент 1 + 2')}}}</td>
+								<td>{{{choose('Ferienwohnung 1 + 2', u'Appartment 1 + 2', u' Апартамент 1 + 2')}}}</td>
 							</tr><tr>
 								<td>{{{choose('mit 3 Personen', u'3 People', u'3 человека')}}}</td>
 								<td>336,00</td>
 								<td>48,00</td>
-								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Аппатрмент 2')}}}</td>
+								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Апартамент 2')}}}</td>
 							</tr><tr>
 								<td>{{{choose('mit 4 Personen', u'4 People', u'4 человека')}}}</td>
 								<td>371,00</td>
 								<td>53,00</td>
-								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Аппатрмент 2')}}}</td>
+								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Апартамент 2')}}}</td>
 							</tr>
 						</tbody>
 					</table>
@@ -53,7 +53,7 @@
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 2 Personen)', 
 								u'Availability of appartment 1 (for 2 people)', 
-								u'Календарь для заявки аppartmentа 1 (2 человека)') \
+								u'Календарь для заявки апартамент 1 (2 человека)') \
 							}}}
 						</a>
 						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="200"></iframe>
@@ -62,7 +62,7 @@
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 4 Personen)', 
 								u'Availability of appartment 2 (for 4 people)', 
-								u'Календарь для заявки аppartmentа 2 (4 человека)') \
+								u'Календарь для заявки апартамент 2 (4 человека)') \
 							}}}
 						</a>
 						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" width="100%" height="200"></iframe>
