@@ -204,10 +204,11 @@ function _getOffset( el ) { // return element top, left, width, height
 }
 
 function getOffset(el) {
-	var _pos = el.position;
+	var _pos = el.style.position;
 	var pos1 = _getOffset(el);
-	el.position = 'absolute';
+	el.style.position = 'absolute';
 	var pos2 = _getOffset(el);
+	el.style.position = _pos;
 	return {
 		top: (pos1.top + pos2.top) / 2, 
 		left: (pos1.left + pos2.left) / 2, 
