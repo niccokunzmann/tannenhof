@@ -1,6 +1,8 @@
 ﻿{{{include('top.html.t')}}}
 
-					<div class="umgebung">
+	<script type="text/javascript" src="drawLine.js"></script>
+
+					<div class="umgebung" id="div1">
 						<!--<a name="geschaefte"></a>-->
 						<h1>Geschäfte und Gaststätten</h1>
 						<a name="kultur"></a>
@@ -19,7 +21,8 @@
 						
 						<p>
 							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
-							<a href="http://www.wartburg-eisenach.de/frame_wn.htm">
+							<a href="http://www.wartburg-eisenach.de/frame_wn.htm" name="wartburg" 
+								onmouseover="lineToImage(this, 'wartburgbild')" onmouseout="deleteLine()">
 								Wartburg
 							</a>, 
 							in die Residenzstadt Gotha mit dem 
@@ -35,7 +38,7 @@
 						</p>
 						
 					</div>
-					<div class="umgebung">
+					<div class="umgebung" id="div2">
 						<a name="sehenswuerdigkeiten"></a><h1>Sehenswürdigkeiten</h1>
 						
 						<p>
@@ -74,6 +77,7 @@
 							Loipen und Winterwanderwege ergänzen dieses Angebot. 
 							Ein Ski- und Schlittenverleih befindet sich direkt im Ort.
 						</p>
+						<img src='' id='wartburgbild' />
 						<p>
 							Über die Zeit haben wir eine große Anzahl von Flyern zur Umgebung gesammelt, sodass Sie sich in der Ferienwohnung inspirieren können.
 							Die <a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">
@@ -84,4 +88,6 @@
 
 					<div>Kinderspielzeug</div>
 
+
+					
 {{{include('bottom.html.t')}}}
