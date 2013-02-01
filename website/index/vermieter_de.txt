@@ -1,1 +1,0 @@
-﻿Wir freuen uns auf Sie als Gäste bei R&uuml;ckfragen stehen wir ihnen gern zur Verf&uuml;gung vor Ort oder per Mail an {{{include('helper/email.html.t')}}}.
