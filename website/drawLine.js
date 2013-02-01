@@ -220,12 +220,12 @@ function deleteLine() {
 
 function createFloatingImage(link, url) {
 	var linkPosition = getOffset(link);
-	var divWidth = 100;
-	var left = (linkPosition.width / 2) - (divWidth / 2) + linkPosition.left
+	var imageWidth = 300;
+	var left = (linkPosition.width / 2) - (imageWidth / 2) + linkPosition.left
 	var top = linkPosition.top + linkPosition.height
 	var htmlLine = 
 				"<div class=\"floatingImageDiv\" id=\"floatingImageDiv\" " + 
-				"style=\"top: " + top + "; left: " + left + "\"><img src=\"" + url + "\"/></div>";
+				"style=\"top: " + top + "; left: " + left + "\"><img src=\"" + url + "\" width=\"" + imageWidth + "\"/></div>";
 	document.body.innerHTML += htmlLine;
 }
 

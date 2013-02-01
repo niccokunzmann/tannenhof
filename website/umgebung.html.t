@@ -1,5 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 
+{{{(globals().setdefault('floatLink', lambda href, image, text: '<link rel=\"prefetch\" href=\"%s\"/><a href=%r onmouseover="createFloatingImage(this, \'%s\')" onmouseout="deleteFloatingImage()">%s</a>' % (image, href, image, text))) and ''}}}
+
 	<script type="text/javascript" src="drawLine.js"></script>
 
 					<div class="umgebung" id="div1">
@@ -21,67 +23,96 @@
 						
 						<p>
 							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
-							<a href="http://www.wartburg-eisenach.de/frame_wn.htm" name="wartburg" 
-								onmouseover="createFloatingImage(this, 'wartburgbild')" onmouseout="deleteFloatingImage()">
-								Wartburg
-							</a>, 
+							{{{floatLink(	"http://www.wartburg-eisenach.de/frame_wn.htm",	
+											"http://www.wartburg-eisenach.de/pics/winter_nacht.jpg", 
+											u"Wartburg")}}}, 
 							in die Residenzstadt Gotha mit dem 
-							<a href="http://www.thueringen.info/gotha-schloss-friedenstein.html">Schloss Friedenstein</a>,
+							{{{floatLink(	"http://www.thueringen.info/gotha-schloss-friedenstein.html",	
+											"http://www.thueringen.info/fileadmin/bilder/kultur/schloss-friedenstein/bild_1.jpg", 
+											u"Schloss Friedenstein")}}},
 							die Landeshauptstadt Erfurt und die Stadt der deutschen Klassiker, Weimar.
 						</p>
 						<p>
 							Die 
-							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/">
-								Kurgesellschaft Tabarz
-							</a>
+							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/",	
+											"http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png", 
+											u"Kurgesellschaft Tabarz")}}},
 							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
 						</p>
-						
 					</div>
 					<div class="umgebung" id="div2">
 						<a name="sehenswuerdigkeiten"></a><h1>Sehenswürdigkeiten</h1>
 						
 						<p>
-							Das Erlebnisbad <a href="http://www.tabbs.de/cms/">„Tabbs“</a> mit Innen- und Außenbecken, Sauna, 
+							Das Erlebnisbad
+							{{{floatLink(	"http://www.tabbs.de/cms/",	
+											"bilder/umgebung/tabbs.jpg", 
+											u"„Tabbs“")}}}
+							mit Innen- und Außenbecken, Sauna, 
 							Wellnessbereich und Fitnesscenter ist etwa 5 Gehminuten entfernt. 
 						</p>
 						<p>
 							Außerdem empfehlen wir Ihnen den Besuch des 
-							<a href="http://www.kletterwald-tabarz.de/">Kletterwaldes</a> und des 
-							<a href="http://www.tabarz.de/cms/erleben/sehenswertes/rhododendron-park/">Rhododendronparks</a> am Datenberg.
+							{{{floatLink(	"http://www.kletterwald-tabarz.de/",	
+											"http://www.kletterwald-tabarz.de/index.php?rex_img_type=im2&rex_img_file=baum-1.jpg", 
+											u"Kletterwaldes")}}}
+							und des 
+							{{{floatLink(	"http://www.tabarz.de/cms/erleben/sehenswertes/rhododendron-park/",	
+											"http://www.tabarz.de/cms/typo3temp/pics/a13869bffc.jpg", 
+											u"Rhododendronparks")}}}
+							am Datenberg.
 						</p>
 						<p>
 							Ein dichtes Netz von Wanderwegen erschließt die schönsten Stellen im Thüringer Wald. 
 							Beliebte Ziele sind der 
-							<a href="http://www.rennsteig.de/">Rennsteig</a>, der 
-							<a href="http://www.norby.de/inselsberg.htm">Inselsberg</a>, 
-							die <a href="http://www.marienglashoehle.de/">Marienglashöhle und Friedrichroda</a>.
+							
+							{{{floatLink(	"http://www.rennsteig.de/",	
+											"http://www.rennsteig.de/fileadmin/template/default/pics/startseite/rennsteigkarte.jpg", 
+											u"Rennsteig")}}}
+							, der 
+							{{{floatLink(	"http://www.norby.de/inselsberg.htm",	
+											"bilder/umgebung/inselsberg.jpg", 
+											u"Inselsberg")}}}
+							, die 
+							<a href="http://www.marienglashoehle.de/">Marienglashöhle und Friedrichroda</a>
+							.
 						</p>
 						<p>
 							Mit der traditionsreichen 
-							<a href="http://www.waldbahn-gotha.de/">Thüringer Waldbahn</a> können Sie durch die schöne 
-							Landschaft bis nach 
-							<a href="http://www.gotha.de/">Gotha</a> fahren.
+							{{{floatLink(	"http://www.waldbahn-gotha.de/",	
+											"http://www.waldbahn-gotha.de/Main_seite/bild26-winter.jpg", 
+											u"Thüringer Waldbahn")}}}
+							können Sie durch die schöne Landschaft bis nach 
+							<a href="http://www.gotha.de/">Gotha</a>
+							fahren.
 						</p>
 						<p>
-							Am Fuße des <a href="http://www.norby.de/inselsberg.htm">Inselsberges</a> können Sie auf der 
-							<a href="http://www.sommerrodelbahn-inselsberg.de/sommerrodelbahn-inselberg.html">Sommerrodelbahn</a> 
+							Am Fuße des 
+							{{{floatLink(	"http://www.norby.de/inselsberg.htm",	
+											"bilder/umgebung/inselsberg.jpg", 
+											u"Inselsberges")}}}
+							können Sie auf der 
+							{{{floatLink(	"http://www.sommerrodelbahn-inselsberg.de/sommerrodelbahn-inselberg.html",	
+											"http://www.sommerrodelbahn-inselsberg.de/typo3temp/pics/b16c2d6c12.jpg", 
+											u"Sommerrodelbahn")}}}
 							und mit anderen Attraktionen einen Tag mit aktiver Freizeitgestaltung erleben.
 						</p>
 						<p>
 							Im Winter gibt es gute Wintersportbedingungen, 
 							einen Skilift für Kinder in unmittelbarer Nähe und einen 
-							<a href="https://www.skigebiete-test.de/skiurlaub/tabarz-inselsberg-.html">
-								Schlepplift am Großen Inselsberg. 
-							</a>
+							{{{floatLink(	"https://www.skigebiete-test.de/skiurlaub/tabarz-inselsberg-.html",	
+											"bilder/umgebung/inselsberg_skihang.jpg", 
+											u"Schlepplift am Großen Inselsberg")}}}
+							.
 							Loipen und Winterwanderwege ergänzen dieses Angebot. 
 							Ein Ski- und Schlittenverleih befindet sich direkt im Ort.
 						</p>
-						<img src='' id='wartburgbild' />
 						<p>
 							Über die Zeit haben wir eine große Anzahl von Flyern zur Umgebung gesammelt, sodass Sie sich in der Ferienwohnung inspirieren können.
-							Die <a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">
-								Touristinformation</a> 
+							Die 
+							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/",	
+											"http://www.tabarz.de/cms/typo3temp/pics/703f45b28e.jpg", 
+											u"Touristinformation")}}}
 							des Ortes ist etwa eine Gehminute entfernt.
 						</p>
 					</div>

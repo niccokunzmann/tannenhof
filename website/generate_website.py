@@ -93,7 +93,7 @@ for language in languages:
                 if not m: break
                 s = m.group('python')
                 try:
-                    result = eval(compile(s, filePath, 'eval'))
+                    result = unicode(eval(compile(s, filePath, 'eval')))
                 except:
                     print('-' * 40)
                     try:
