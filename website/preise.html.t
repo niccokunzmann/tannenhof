@@ -5,7 +5,7 @@
 						<tbody>
 							<tr>
 								<td colspan="4" class="heading">{{{choose(	\
-										u'Preise pro Wohnung in &#8364; incl. MwSt. f&uuml;r', \
+										u'Preise pro Wohnung in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
 										u'Price per apartment in &euro; (VAT incl.) for', \
 										u'Расценки на квартиры в Евро включая НДС на') \
 									}}}
@@ -38,11 +38,14 @@
 					</table>
 					<p>
 						{{{choose(
-							u'''Unser Angebot für ihren Aufenthalt bei uns bitten wir per Mail oder Telefon zu erfragen.''', \
+							u'''Unser Angebot für ihren Aufenthalt bei uns bitten wir per Mail oder Telefon zu erfragen.
+							Unter 3 Nächten  berechnen wir zusätzlich 25€ für die Endreinigung.''', \
 							u'''The prices are offered for one appartment and weekly or longer stay. For rent we ask you to request.
-								If you have any questions - please send us an e-mail.''', \
-							u'''Мы с удовольствием вышлем Вам по почте, электронной почте или факсу предложение для индивидуального 
-								отдыха на нашей вилле. Кроме–того мы были бы рады, ответить на Ваши вопросы по телефону.''') \
+							If you have any questions - please send us an e-mail.
+							If you stay for only one or two days we charge additional 25€ for cleaning. ''', \
+							u'''Мы с удовольствием вышлем Вам по почте, электронной почте или факсу предложение для индивидуального отдыха на нашей вилле.
+							Кроме–того мы были бы рады, ответить на Ваши вопросы по телефону.
+							Эсли вы остаётесь на один или два дня, очистка стоит дополнительно 25€.''') \
 						}}}
 					</p>
 					<p>
