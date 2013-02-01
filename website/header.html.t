@@ -1,7 +1,7 @@
 ﻿
 			<div class="header">
 
-				<h1 id="Platzhalter">Villa Tannenhof</h1>
+				<h1>Villa Tannenhof</h1>
 
 				<!-- Flaggen der Laender -->
 				
