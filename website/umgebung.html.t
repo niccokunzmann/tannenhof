@@ -22,7 +22,7 @@
 						<p>
 							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
 							<a href="http://www.wartburg-eisenach.de/frame_wn.htm" name="wartburg" 
-								onmouseover="lineToImage(this, 'wartburgbild')" onmouseout="deleteLine()">
+								onmouseover="createFloatingImage(this, 'wartburgbild')" onmouseout="deleteFloatingImage()">
 								Wartburg
 							</a>, 
 							in die Residenzstadt Gotha mit dem 

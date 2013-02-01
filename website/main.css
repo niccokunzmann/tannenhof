@@ -207,3 +207,7 @@ img.googlemapsframe {
 div.umgebung h1 h2 {
 	display:block;
 }
+
+div.floatingImageDiv {
+	position: absolute;
+}

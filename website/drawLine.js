@@ -154,38 +154,6 @@ function getElementAbsolutePos(element) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////
-//// get pos
-// 
-// http://stackoverflow.com/questions/3930391/getting-absolute-position-of-an-element-relative-to-browser
-//
-
-function findPos(obj) {
-    var curleft = 0;
-    var curtop = 0;
-    if(obj.offsetLeft) curleft += parseInt(obj.offsetLeft);
-    if(obj.offsetTop) curtop += parseInt(obj.offsetTop);
-    if(obj.scrollTop && obj.scrollTop > 0) curtop -= parseInt(obj.scrollTop);
-    if(obj.offsetParent) {
-        var pos = findPos(obj.offsetParent);
-        curleft += pos[0];
-        curtop += pos[1];
-    } else if(obj.ownerDocument) {
-        var thewindow = obj.ownerDocument.defaultView;
-        if(!thewindow && obj.ownerDocument.parentWindow)
-            thewindow = obj.ownerDocument.parentWindow;
-        if(thewindow) {
-            if(thewindow.frameElement) {
-                var pos = findPos(thewindow.frameElement);
-                curleft += pos[0];
-                curtop += pos[1];
-            }
-        }
-    }
-
-    return [curleft,curtop];
-}
-
-////////////////////////////////////////////////////////////////////////////////////
 //// draw line
 // 
 // http://stackoverflow.com/questions/8672369/how-to-draw-a-line-between-two-divs
@@ -197,9 +165,6 @@ function _getOffset( el ) { // return element top, left, width, height
     var pos = getElementAbsolutePos(el);
     var _x = pos.x;
     var _y = pos.y;	
-    //var pos = findpos(el); // geht nicht
-    //var _x = pos[0];
-    //var _y = pos[1];
     return { top: _y, left: _x, width: _w, height: _h };
 }
 
@@ -246,4 +211,26 @@ function deleteLine() {
 	document.body.removeChild(document.getElementById('line'));
 }
 
+////////////////////////////////////////////////////////////////////////////////////
+//// create floating image over links
+// 
+// 
+//
+
+
+function createFloatingImage(link, url) {
+	var htmlLine = "<div class=\"floatingImageDiv\" id=\"floatingImageDiv\"><img src=\"" + url + "\"/></div>";
+	document.body.innerHTML += htmlLine;
+	var div = document.getElementById('floatingImageDiv');
+	var linkPosition = getOffset(link);
+	var left = (linkPosition.width / 2) - (div.offsetWidth / 2) + linkPosition.left
+	var top = linkPosition.top + linkPosition.height
+	div.style.top = top;
+	div.style.left = left;
+}
+
+
+function deleteFloatingImage() {
+	document.body.removeChild(document.getElementById('floatingImageDiv'));
+}
 
