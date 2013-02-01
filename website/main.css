@@ -23,12 +23,25 @@ vertical-align: baseline;
 
 
 
-
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url() format('woff');
+  /* 
+	Original ubuntu webfont by google:
+		http://themes.googleusercontent.com/static/fonts/ubuntu/v4/mZSs29ggGoaqrCNB3kDfZQ.woff
+		
+	This has to be put into top.html.t
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+		
+	*/
+}
 
 body {
 	color: black; background-color: rgb(227, 255, 255);/*rgb(220, 245, 178) C6DF9C 187B39;*/
 	font-size: 100.01%;
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: 'Ubuntu', sans-serif; Helvetica,Arial,sans-serif;
 	margin: 0; padding: 0;
 	text-align: center;/* Zentrierung im Internet Explorer */
 }
@@ -67,7 +80,11 @@ html>body .header {/* nur fuer moderne Browser! */
 	position: fixed;
 }
  
-h1{
+h1 {
+	font-family: Gabriola,MV Boli,Segoe Print,Vijaya,Cataneo BT,Edwardian Script ITC,Tiranti Solid LET,Monotype Corsiva,Angsana New,Arial,Times New Roman;
+}
+ 
+div.header h1 {
 	float: left;
 	text-align: left;
 	margin:0;
@@ -184,4 +201,9 @@ td {
 img.googlemapsframe {
 	height: 350px;
 	width: 425px;
+}
+
+/* Umgebung */
+div.umgebung h1 h2 {
+	display:block;
 }

@@ -21,8 +21,9 @@
 							<a href="http://www.wartburg-eisenach.de/frame_wn.htm">
 								Wartburg
 							</a>, 
-							in die Residenzstadt _Gotha_ mit dem Schloss Friedenstein, 
-							die Landeshauptstadt _Erfurt_ und die Stadt der deutschen Klassiker, _Weimar_.
+							in die Residenzstadt Gotha mit dem 
+							<a href="http://www.thueringen.info/gotha-schloss-friedenstein.html">Schloss Friedenstein</a>,
+							die Landeshauptstadt Erfurt und die Stadt der deutschen Klassiker, Weimar.
 						</p>
 						<p>
 							Die 

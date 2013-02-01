@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		﻿<link rel="stylesheet" type="text/css" href="main.css">
+		
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="ie.css">
 		<![endif]-->
