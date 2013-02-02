@@ -34,17 +34,17 @@
 
 					<li>
 						<a href="{{{languageName('fewo1.html')}}}">
-							{{{choose('Wohnungen', 'Appartments', u'Апартаменты')}}}
+							{{{choose('Wohnungen', 'Apartments', u'Апартаменты')}}}
 						</a>
 						<ul>
 							<li>
 								<a href="{{{languageName('fewo1.html')}}}">
-									{{{choose('Ferienwohnung 1', 'Appartment 1', u'Апартамент 1')}}}
+									{{{choose('Ferienwohnung 1', 'Apartment 1', u'Апартамент 1')}}}
 								</a>
 							</li>
 							<li>
 								<a href="{{{languageName('fewo2.html')}}}">
-									{{{choose('Ferienwohnung 2', 'Appartment 2', u'Апартамент 2')}}}
+									{{{choose('Ferienwohnung 2', 'Apartment 2', u'Апартамент 2')}}}
 								</a>
 							</li>
 							<li>
@@ -74,7 +74,7 @@
 
 					<li>
 						<a href="{{{languageName('umgebung.html')}}}">
-							{{{choose('Umgebung', 'Area', u'Округ')}}}
+							{{{choose('Umgebung', 'Area', u'Окресность')}}}
 						</a>
 						<ul>
 							<li>
