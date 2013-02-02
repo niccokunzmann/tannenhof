@@ -50,7 +50,7 @@ div#page{
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-    width: 1000px;
+	width: 1000px;
 	padding: 0;
 	z-index: 0;
 	background-color: white;
@@ -173,7 +173,7 @@ div#content{
 }
 
 div#content img {	
-	padding: 0.25em;
+	/* no padding here - overwrites padding of inner divs */
 }
 
 div.image {
@@ -181,6 +181,7 @@ div.image {
 	text-align: center;
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;
+	padding: 0.25em;
 }
 
 div.image img {
@@ -211,3 +212,43 @@ div.umgebung h1 h2 {
 div.floatingImageDiv {
 	position: absolute;
 }
+
+/* Fewo */
+div.bildergalerie {
+	overflow: hidden;
+}
+
+div.bildergalerie div.spalteLinks {
+	float: left;
+	width: 49%;
+}
+div.bildergalerie div.spalteRechts {
+	float: right;
+	width:49%;
+}
+
+div.stueck {
+	float: left;
+	overflow: hidden;
+}
+
+div.stueck div.bild {
+	clear:left;	
+	float:left;
+	text-align: center;
+	width: 100%;
+}
+
+div.stueck div.bild img {
+	width: 100%;
+	padding: 0em;
+}
+
+div.stueck div.beschreibung {
+	float: left;
+	width: 100%;
+	padding-bottom: 1em;
+	text-align: center;
+	height: 3em;
+}
+

@@ -20,7 +20,7 @@
 					</div>
 					<div class="umgebung">
 						<h1>Kultur</h1>
-						
+						<a name="sehenswuerdigkeiten"></a>
 						<p>
 							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
 							{{{floatLink(	"http://www.wartburg-eisenach.de/frame_wn.htm",	
@@ -41,7 +41,7 @@
 						</p>
 					</div>
 					<div class="umgebung" id="div2">
-						<a name="sehenswuerdigkeiten"></a><h1>Sehenswürdigkeiten</h1>
+						<h1>Sehenswürdigkeiten</h1>
 						
 						<p>
 							Das Erlebnisbad

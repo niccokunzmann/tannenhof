@@ -53,7 +53,7 @@
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 2 Personen)', 
 								u'Availability of appartment 1 (for 2 people)', 
-								u'Календарь для заявки апартамент 1 (2 человека)') \
+								u'Календарь для заявки апартамента 1 (2 человека)') \
 							}}}
 						</a>
 						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="200"></iframe>
@@ -62,7 +62,7 @@
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 4 Personen)', 
 								u'Availability of appartment 2 (for 4 people)', 
-								u'Календарь для заявки апартамент 2 (4 человека)') \
+								u'Календарь для заявки апартамента 2 (4 человека)') \
 							}}}
 						</a>
 						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" width="100%" height="200"></iframe>
