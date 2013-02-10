@@ -18,9 +18,9 @@
 
 				</div>
 
-				<div class="spalteRechts">
+				<div class="spalteRechts" style="height: 100%">
 					<div class="stueck">
-						<div class="bild" style="height:362px">
+						<div class="bild" > style="height:362px"
 							<h1>Wohnzimmer</h1>
 							mit Couch, Sesseln, 
 							Tischchen, Schrankwand, 
@@ -30,9 +30,7 @@
 						</div>
 					</div>
 
-					<div class="ritz"></div>
-
-					<div class="stueck">
+					<div class="stueck"  style="position:relative; bottom:0;">
 						<div class="bild">
 							<img src="bilder/fewo2/essecke.jpg" alt="">
 						</div>

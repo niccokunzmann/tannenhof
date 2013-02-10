@@ -2,11 +2,8 @@
 TODO
 ----
 
-1999 komplett ... text 
-zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
-foto 3 und 4 dazu, text drunter einfügen (startseite)
 
-blocksatz üall
+zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
 
 bild von fernseher und schlafzimmer kommt noch dazu
 
@@ -34,6 +31,10 @@ links bei umgebung: anderre Farbe für di mit bildern
 
 done 
 ----
+
+1999 komplett ... text 
+
+foto 3 und 4 dazu, text drunter einfügen (startseite)
 
 englisch, ru: appartment richtig schreiben
 

@@ -89,7 +89,7 @@
 							</li>
 							<li>
 								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
-									{{{choose('Sehensw&uuml;rdigkeiten', 'Sights', u'Достоприме-чательности')}}}
+									{{{choose('Sehenswertes', 'Sights', u'Достоприме-чательности')}}}
 								</a>
 							</li>
 						</ul>
