@@ -108,7 +108,7 @@
 							Ein Ski- und Schlittenverleih befindet sich direkt im Ort.
 						</p>
 						<p>
-							Über die Zeit haben wir eine große Anzahl von Flyern zur Umgebung gesammelt, sodass Sie sich in der Ferienwohnung inspirieren können.
+							Eine große Anzahl an Prospekten über Umgebung liegt in der Ferienwohnung für Sie bereit.
 							Die 
 							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/",	
 											"http://www.tabarz.de/cms/typo3temp/pics/703f45b28e.jpg", 
