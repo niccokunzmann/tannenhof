@@ -29,6 +29,7 @@ unterstreichen mehr staedte. links
 erst deutsch, dann andere srpachen.
 
 bilder bei umgebung: unten mehr platz, fremde bilder wegmachen.
+links bei umgebung: anderre Farbe für di mit bildern
 
 
 done 
