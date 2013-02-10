@@ -216,6 +216,7 @@ div.floatingImageDiv {
 /* Fewo */
 div.bildergalerie {
 	overflow: hidden;
+	padding-bottom: 1em;
 }
 
 div.bildergalerie div.spalteLinks {
@@ -230,6 +231,7 @@ div.bildergalerie div.spalteRechts {
 div.stueck {
 	float: left;
 	overflow: hidden;
+	width:100%;
 }
 
 div.stueck div.bild {
@@ -250,5 +252,10 @@ div.stueck div.beschreibung {
 	padding-bottom: 1em;
 	text-align: center;
 	height: 3em;
+}
+
+div.bildergalerie div.ritz {
+	height: 1em;
+	width: 100%;
 }
 

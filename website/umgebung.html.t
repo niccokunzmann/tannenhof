@@ -117,8 +117,6 @@
 						</p>
 					</div>
 
-					<div>Kinderspielzeug</div>
-
 
 					
 {{{include('bottom.html.t')}}}

@@ -1,26 +1,50 @@
-
+﻿
 TODO
 ----
 
-kein foto von euch beiden
-
 1999 komplett ... text 
+zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
+foto 3 und 4 dazu, text drunter einfügen (startseite)
 
-blocksatz �berall
+blocksatz üall
 
 bild von fernseher und schlafzimmer kommt noch dazu
 
-Wohnungen: Perise weg, stattdessen preise und verf�gbarkeit daneben
+Wohnungen: Perise weg, stattdessen preise und verfügbarkeit daneben
+navigation wie in index seite word dokument
+
+Wohnzimmer":" weg
+Fewo1: 
+	drei wohnzimmerbilder ganz nach oben., 1 mittig.
+	bad und schlafzimmer zusammen. text drunter ist ok
+
 
 fewo: 1-4 personen, 1-2 personen
 
-umgebung, kntakt, impressum, das wei�e nach unten
+Umgebung: einzelne seiten
+unterstreichen mehr staedte. links
 
-kontakt und impressum zusammenlegen
++ Rundgang
+
+erst deutsch, dann andere srpachen.
+
+bilder bei umgebung: unten mehr platz, fremde bilder wegmachen.
+
+
+done 
+----
 
 englisch, ru: appartment richtig schreiben
 
 okrug -> okrsnostj
+
+umgebung, kntakt, impressum, das weiße nach unten
+
+not to do
+---------
+
+kontakt und impressum zusammenlegen. Ins Impressum gehören genannt die Leute, die die Seite machen, die Bilder, ...
+
 
 
 
