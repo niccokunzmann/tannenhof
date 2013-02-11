@@ -18,6 +18,13 @@ languages = ['de', 'en', 'ru']
 
 outputDir = '../output'
 inputDir = '.'
+DEBUG = './debug/'
+if not os.path.isdir(DEBUG):
+    os.mkdir(DEBUG)
+DEBUG_INDEX = len(os.listdir(DEBUG))
+## !!!! FILE_DEBUG may help debugging python scripts
+FILE_DEBUG = False
+
 
 def read(fileName):
     with open(fileName, 'rb') as f:
@@ -66,6 +73,8 @@ pythonRegex = re.compile(u'^(?P<start>.*?)\\{\\{\\{(?P<python>.*?)\\}\\}\\}(?P<e
 for language in languages:
 
     for dirPath, dirNames, fileNames in os.walk(inputDir):
+        if os.path.abspath(dirPath) == os.path.abspath(DEBUG):
+            continue
         webDirPath = dirPath[len(inputDir):]
         relativeOutputDir = outputDir + '/' + webDirPath
         if not os.path.isdir(dirPath):
@@ -92,8 +101,26 @@ for language in languages:
                 m = pythonRegex.search(content)
                 if not m: break
                 s = m.group('python')
+                if FILE_DEBUG:
+                    sourceFilePath = DEBUG + '/%i_%s' % (DEBUG_INDEX, fileName)
+                    DEBUG_INDEX += 1
+                    with open(sourceFilePath, 'wb') as f:
+                        f.write(s.encode('utf8'))
+                else:
+                    sourceFilePath = filePath
                 try:
-                    result = unicode(eval(compile(s, filePath, 'eval')))
+                    code = compile(s, sourceFilePath, 'eval')
+                    mode = 'eval'
+                except SyntaxError:
+                    mode = 'exec'
+                    code = compile(s, sourceFilePath, 'exec')
+                try:
+                    if mode == 'eval':
+                        result = unicode(eval(code))
+                    else:
+                        result = '' 
+                        exec(code)
+                        result = unicode(result)
                 except:
                     print('-' * 40)
                     try:

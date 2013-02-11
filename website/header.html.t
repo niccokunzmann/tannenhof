@@ -95,8 +95,8 @@
 								</a>
 							</li>
 							<li>
-								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
-									{{{choose('Rundgang', '', u'Достоприме-чательности')}}}
+								<a href="{{{languageName('rundgang.html')}}}">
+									{{{choose('Rundgang', 'Rundgang', u'jkfjskdjflsl')}}}
 								</a>
 							</li>
 						</ul>

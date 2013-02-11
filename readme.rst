@@ -7,9 +7,6 @@ zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
 
 bild von fernseher und schlafzimmer kommt noch dazu
 
-Wohnungen: Perise weg, stattdessen preise und verfügbarkeit daneben
-navigation wie in index seite word dokument
-
 Wohnzimmer":" weg
 Fewo1: 
 	drei wohnzimmerbilder ganz nach oben., 1 mittig.
@@ -31,6 +28,10 @@ links bei umgebung: anderre Farbe für di mit bildern
 
 done 
 ----
+
+Wohnungen: Perise weg, stattdessen preise und verfügbarkeit daneben
+navigation wie in index seite word dokument
+
 
 1999 komplett ... text 
 
