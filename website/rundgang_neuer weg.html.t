@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang(u'Der "Neue Weg" ist einer der Waldwanderwege, die zum Inselsberg führen.')}}}
+
 
 {{{include('bottom.html.t')}}}

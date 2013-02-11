@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang('Der Trinkpavillon im Kurpark in Friedrichroda')}}}
+
 
 {{{include('bottom.html.t')}}}

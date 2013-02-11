@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang('links der Zimmerberg, rechts der Datenberg, in der Mitte der Ortsteil Cabarz')}}}
+
 
 {{{include('bottom.html.t')}}}

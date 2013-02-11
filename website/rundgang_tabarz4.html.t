@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang('Blick vom Postweg auf dem Datenberg richtung Kirche')}}}
+
 
 {{{include('bottom.html.t')}}}

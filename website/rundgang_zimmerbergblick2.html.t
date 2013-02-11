@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang(u'Blick vom Zimmerberg - Das Thürunger Land in der Ferne')}}}
+
 
 {{{include('bottom.html.t')}}}

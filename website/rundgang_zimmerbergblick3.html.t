@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang('Blick vom Zimmerberg - Tabarz mit und rechts das Familienbad Tabbs')}}}
+
 
 {{{include('bottom.html.t')}}}

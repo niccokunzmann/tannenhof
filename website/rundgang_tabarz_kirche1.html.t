@@ -1,6 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 {{{include('helper/rundgang.html.t')}}}
 
-{{{rundgang('Downhill in Tabarz - Kunstspringen')}}}
+{{{rundgang(u'Die evangelische Kirche im Herzen von Tabarz')}}}
+
 
 {{{include('bottom.html.t')}}}
