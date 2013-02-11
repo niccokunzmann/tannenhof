@@ -37,6 +37,9 @@ nosetests.xml
 .pydevproject
 
 /output
+*~
+/website/helper/*~
+
 /website/debug
 /website/rundgang/Downhill1.htm
 /website/rundgang/Downhill2.htm

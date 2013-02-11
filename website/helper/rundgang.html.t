@@ -1,7 +1,7 @@
 ﻿{{{
 
 ______prefix = u'rundgang'
-______rundgang = [unicode(_name) for _name in os.listdir('.') if _name.startswith(______prefix)]
+______rundgang = [unicode(_name) for _name in os.listdir('.') if _name.startswith(______prefix) and _name.endswith('.html.t')]
 ______rundgang.sort()
 
 def rundgang(name, bild = None): 
@@ -20,7 +20,17 @@ def rundgang(name, bild = None):
 		next = languageName(next)
 		back = languageName(back)
 		string = u'''
-			<div class="rundgang"> 
+		  <script type="text/javascript">
+		    function navigateThroughRundgang(event) {{
+          if (event.keyCode == 39 || event.keyCode == 13) {{
+            document.location = "{next}";
+          }} else if (event.keyCode == 37) {{
+            document.location = "{back}";
+          }} 
+        }}
+        document.onkeypress = navigateThroughRundgang;
+		  </script>
+		  <div class="rundgang"> 
 				<h1>{name}</h1>
 				<div class="bild">
 					<img src="bilder/rundgang/{bild}" alt="{name}"/>
