@@ -80,18 +80,23 @@
 						</a>
 						<ul>
 							<li>
-								<a href="{{{languageName('umgebung.html')}}}#">
-									{{{choose(u'Gesch&auml;fte', 'Shops', u'Магазины')}}}
-								</a>
-							</li>
-							<li>
-								<a href="{{{languageName('umgebung.html')}}}#kultur">
+								<a href="{{{languageName('umgebung_kultur.html')}}}">
 									{{{choose('Kultur', 'Culture', u'Култура')}}}
 								</a>
 							</li>
 							<li>
-								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
+								<a href="{{{languageName('umgebung_sehenswertes.html')}}}">
 									{{{choose('Sehenswertes', 'Sights', u'Достоприме-чательности')}}}
+								</a>
+							</li>
+							<li>
+								<a href="{{{languageName('umgebung_einkauf.html')}}}">
+									{{{choose(u'Gesch&auml;fte', 'Shops', u'Магазины')}}}
+								</a>
+							</li>
+							<li>
+								<a href="{{{languageName('umgebung.html')}}}#sehenswuerdigkeiten">
+									{{{choose('Rundgang', '', u'Достоприме-чательности')}}}
 								</a>
 							</li>
 						</ul>

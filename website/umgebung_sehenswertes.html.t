@@ -1,46 +1,8 @@
 ﻿{{{include('top.html.t')}}}
 
-{{{(globals().setdefault('floatLink', lambda href, image, text: '<link rel=\"prefetch\" href=\"%s\"/><a href=%r onmouseover="createFloatingImage(this, \'%s\')" onmouseout="deleteFloatingImage()">%s</a>' % (image, href, image, text))) and ''}}}
+{{{include('helper/umgebung.html.t')}}}
 
-	<script type="text/javascript" src="drawLine.js"></script>
-
-					<div class="umgebung" id="div1">
-						<!--<a name="geschaefte"></a>-->
-						<h1>Geschäfte und Gaststätten</h1>
-						<a name="kultur"></a>
-						<p>
-							Der Tannenhof befindet sich in grüner Lage nur wenige Schritte entfernt vom Ortszentrum Tabarz.
-							Verschiedene Geschäfte wie z. B. Supermarkt, Bäcker, Fleischer oder Drogerie können Sie zu Fuß erreichen.
-							Gleichfalls in der Nähe befinden sich eine Apotheke und Geldautomaten.
-						</p>
-						
-						<p>
-							Die zahlreichen Gaststätten im Ort verwöhnen Sie mit Thüringer Küche.
-						</p>
-					</div>
 					<div class="umgebung">
-						<h1>Kultur</h1>
-						<a name="sehenswuerdigkeiten"></a>
-						<p>
-							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
-							{{{floatLink(	"http://www.wartburg-eisenach.de/frame_wn.htm",	
-											"http://www.wartburg-eisenach.de/pics/winter_nacht.jpg", 
-											u"Wartburg")}}}, 
-							in die Residenzstadt Gotha mit dem 
-							{{{floatLink(	"http://www.thueringen.info/gotha-schloss-friedenstein.html",	
-											"http://www.thueringen.info/fileadmin/bilder/kultur/schloss-friedenstein/bild_1.jpg", 
-											u"Schloss Friedenstein")}}},
-							die Landeshauptstadt Erfurt und die Stadt der deutschen Klassiker, Weimar.
-						</p>
-						<p>
-							Die 
-							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/",	
-											"http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png", 
-											u"Kurgesellschaft Tabarz")}}},
-							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
-						</p>
-					</div>
-					<div class="umgebung" id="div2">
 						<h1>Sehenswürdigkeiten</h1>
 						
 						<p>
@@ -74,14 +36,14 @@
 											"bilder/umgebung/inselsberg.jpg", 
 											u"Inselsberg")}}}
 							, die 
-							<a href="http://www.marienglashoehle.de/">Marienglashöhle und Friedrichroda</a>
+							<a href="http://www.marienglashoehle.de/">Marienglashöhle&nbsp;und&nbsp;Friedrichroda</a>
 							.
 						</p>
 						<p>
 							Mit der traditionsreichen 
 							{{{floatLink(	"http://www.waldbahn-gotha.de/",	
 											"http://www.waldbahn-gotha.de/Main_seite/bild26-winter.jpg", 
-											u"Thüringer Waldbahn")}}}
+											u"Thüringer&nbsp;Waldbahn")}}}
 							können Sie durch die schöne Landschaft bis nach 
 							<a href="http://www.gotha.de/">Gotha</a>
 							fahren.
@@ -102,7 +64,7 @@
 							einen Skilift für Kinder in unmittelbarer Nähe und einen 
 							{{{floatLink(	"https://www.skigebiete-test.de/skiurlaub/tabarz-inselsberg-.html",	
 											"bilder/umgebung/inselsberg_skihang.jpg", 
-											u"Schlepplift am Großen Inselsberg")}}}
+											u"Schlepplift&nbsp;am&nbsp;Großen&nbsp;Inselsberg")}}}
 							.
 							Loipen und Winterwanderwege ergänzen dieses Angebot. 
 							Ein Ski- und Schlittenverleih befindet sich direkt im Ort.
@@ -116,7 +78,5 @@
 							des Ortes ist etwa eine Gehminute entfernt.
 						</p>
 					</div>
-
-
 					
 {{{include('bottom.html.t')}}}
