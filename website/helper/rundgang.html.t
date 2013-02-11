@@ -47,4 +47,5 @@ def rundgang(name, bild = None):
   			</div>
 			</div>
 		'''
-		return string.format(**locals())}}}
+		return string.format(**locals())
+}}}

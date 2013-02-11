@@ -13,5 +13,13 @@
 					<div class="impressum">Fax: +49 (0) 36259 / 512 01</div>
 					
 					<div class="impressum">E-Mail: {{{include('helper/email.html.t')}}}</div>
+					
+					<div class="impressum">
+					  Sollten Sie Probleme mit der Webseite bekommen oder Bilder verwenden wollen, 
+					  so k&ouml;nnen Sie auf <a href="https://github.com/niccokunzmann/tannenhof/issues">
+					    github eine Anfrage einreichen.
+					  </a>
+					</div>
+					
 		
 {{{include('bottom.html.t')}}}
