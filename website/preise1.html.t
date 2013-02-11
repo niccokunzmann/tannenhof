@@ -5,7 +5,7 @@
 						<tbody>
 							<tr>
 								<td colspan="4" class="heading">{{{choose(	\
-										u'Preise  f&uuml;r Ferienwohnung 1 in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
+										u'Preise f&uuml;r Ferienwohnung 1 in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
 										u'Price for Appartment 1 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 1 в Евро включая НДС на') \
 									}}}
@@ -46,6 +46,6 @@
 							}}}
 						</a>						
 					</p>
-					<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="1000"></iframe>
+					<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="800"></iframe>
 					
 {{{include('bottom.html.t')}}}
