@@ -84,8 +84,8 @@ for language in languages:
             if not os.path.isdir(newDir):
                 os.makedirs(newDir)
         for fileName in fileNames:
-            adaptFile = fileName.endswith('.t')
             filePath = os.path.join(dirPath, fileName)
+            adaptFile = fileName.endswith('.t')
             if adaptFile:
                 webFileName = fileName[:-2]
                 webFilePath = os.path.join(webDirPath, webFileName \

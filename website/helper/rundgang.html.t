@@ -1,10 +1,11 @@
 ﻿{{{def rundgang(name, bild): 
 		prefix = 'rundgang'
-		print 'haskjdfhashkdhkashkjdkahskjkas', fileName, os.listdir('.')
 		rundgang = [_name for _name in os.listdir('.') if _name.startswith(prefix)]
-		rundgang.sort()
 		assert fileName in rundgang, 'expected %s to be in %s' % (fileName, rundgang)
 		index = rundgang.index(fileName)
+		rundgang = [(_name[:-2] if _name.endswith('.t') else _name) for _name in rundgang]
+		rundgang.sort()
+		print (rundgang)
 		next = rundgang[(index + 1) % len(rundgang)]
 		back = rundgang[(index - 1) % len(rundgang)]
 		next = languageName(next)
