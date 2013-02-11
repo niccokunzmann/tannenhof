@@ -5,9 +5,9 @@
 						<tbody>
 							<tr>
 								<td colspan="4" class="heading">{{{choose(	\
-										u'Preise pro Wohnung in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
-										u'Price per apartment in &euro; (VAT incl.) for', \
-										u'Расценки на квартиры в Евро включая НДС на') \
+										u'Preise f&uuml;r Ferienwohnung 2 in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
+										u'Price for Appartment 2 in &euro; (VAT incl.) for', \
+										u'Расценки для апартамента 2 в Евро включая НДС на') \
 									}}}
 									2013
 									{{{choose('', '', u'г.')}}}
@@ -22,17 +22,14 @@
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
 								<td>301,00</td>
 								<td>43,00</td>
-								<td>{{{choose('Ferienwohnung 1 + 2', u'Appartment 1 + 2', u' Апартамент 1 + 2')}}}</td>
 							</tr><tr>
 								<td>{{{choose('mit 3 Personen', u'3 People', u'3 человека')}}}</td>
 								<td>336,00</td>
 								<td>48,00</td>
-								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Апартамент 2')}}}</td>
 							</tr><tr>
 								<td>{{{choose('mit 4 Personen', u'4 People', u'4 человека')}}}</td>
 								<td>371,00</td>
 								<td>53,00</td>
-								<td>{{{choose('Ferienwohnung 2', u'Appartment 2', u' Апартамент 2')}}}</td>
 							</tr>
 						</tbody>
 					</table>
@@ -49,15 +46,7 @@
 						}}}
 					</p>
 					<p>
-						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" target="fewo1verfuegbarkeit">
-							{{{choose(
-								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 2 Personen)', 
-								u'Availability of appartment 1 (for 2 people)', 
-								u'Календарь для заявки апартамента 1 (2 человека)') \
-							}}}
-						</a>
-						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="200"></iframe>
-						
+
 						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" target="fewo2verfuegbarkeit">
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 4 Personen)', 
@@ -65,7 +54,7 @@
 								u'Календарь для заявки апартамента 2 (4 человека)') \
 							}}}
 						</a>
-						<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" width="100%" height="200"></iframe>
 					</p>
+					<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" width="100%" height="1000"></iframe>
 					
 {{{include('bottom.html.t')}}}
