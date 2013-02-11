@@ -75,7 +75,7 @@
 					</li>
 
 					<li>
-						<a href="{{{languageName('umgebung.html')}}}">
+						<a href="{{{languageName('umgebung_kultur.html')}}}">
 							{{{choose('Umgebung', 'Area', u'Окресность')}}}
 						</a>
 						<ul>
@@ -91,7 +91,7 @@
 							</li>
 							<li>
 								<a href="{{{languageName('umgebung_einkauf.html')}}}">
-									{{{choose(u'Gesch&auml;fte', 'Shops', u'Магазины')}}}
+									{{{choose(u'Gesch&auml;fte &amp; Gastst&auml;tten', 'Shops', u'Магазины')}}}
 								</a>
 							</li>
 							<li>
