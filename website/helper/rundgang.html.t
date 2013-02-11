@@ -21,6 +21,7 @@ def rundgang(name, bild = None):
 		back = languageName(back)
 		string = u'''
 		  <script type="text/javascript">
+<!--
 		    function navigateThroughRundgang(event) {{
           if (event.keyCode == 39 || event.keyCode == 13) {{
             document.location = "{next}";
@@ -29,6 +30,7 @@ def rundgang(name, bild = None):
           }} 
         }}
         document.onkeypress = navigateThroughRundgang;
+        // -->
 		  </script>
 		  <div class="rundgang"> 
         <div class="back">
