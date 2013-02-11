@@ -18,12 +18,12 @@ languages = ['de', 'en', 'ru']
 
 outputDir = '../output'
 inputDir = '.'
-DEBUG = './debug/'
-DEBUG_INDEX = len(os.listdir(DEBUG))
 ## !!!! FILE_DEBUG may help debugging python scripts
 FILE_DEBUG = False
+DEBUG = './debug/'
 if FILE_DEBUG and not os.path.isdir(DEBUG):
     os.mkdir(DEBUG)
+    DEBUG_INDEX = len(os.listdir(DEBUG))
 
 def read(fileName):
     with open(fileName, 'rb') as f:
