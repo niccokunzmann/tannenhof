@@ -31,12 +31,18 @@ def rundgang(name, bild = None):
         document.onkeypress = navigateThroughRundgang;
 		  </script>
 		  <div class="rundgang"> 
-				<h1>{name}</h1>
-				<div class="bild">
-					<img src="bilder/rundgang/{bild}" alt="{name}"/>
+        <div class="back">
+		      <a href="{back}"> &lt;&lt; </a>
+	      </div>
+	      <div class="next">
+		      <a href="{next}"> &gt;&gt; </a>
+	      </div>
+        <div class="bild">
+				  <img src="bilder/rundgang/{bild}" alt="{name}"/>
 				</div>
-				<a href="{next}"> &gt;&gt; </a>
-				<a href="{back}"> &lt;&lt; </a>
+				<div class="beschreibung">
+  				{name}
+  			</div>
 			</div>
 		'''
 		return string.format(**locals())}}}

@@ -4,4 +4,4 @@
 {{{rundgang('Blick vom Zimmerberg - Tabarz mit der evangelischen Kirche Im Zentrum')}}}
 
 
-{{{include('bottom.html.t')}}
+{{{include('bottom.html.t')}}}

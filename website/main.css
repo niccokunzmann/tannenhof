@@ -263,3 +263,37 @@ div.bildergalerie div.ritz {
 	width: 100%;
 }
 
+/* Rundgang */
+
+div.rundgang {
+  text-align: center;
+}
+
+div.rundgang div.bild img {
+  
+}
+
+div.rundgang div.back {
+  float: left;
+}
+
+div.rundgang div.next {
+  float: right;
+}
+
+div.rundgang div.next a {
+  height: 400px;
+}
+
+div.rundgang div.back a {
+  height: 400px;
+}
+
+div.rundgang div.beschreibung {
+	float: left;
+	width: 100%;
+	padding-top: 1em;
+	text-align: center;
+	height: 3em;
+}
+
