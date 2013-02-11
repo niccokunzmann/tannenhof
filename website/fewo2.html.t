@@ -6,21 +6,11 @@
 							<img src="bilder/fewo2/wohnzimmer.jpg" alt="">
 						</div>
 					</div>
-					
-					<div class="ritz"></div>
-
-					<div class="stueck">
-						<div class="bild">
-							<img src="bilder/fewo2/kuechenzeile.jpg" alt="">
-						</div>
-					</div>
-
-
 				</div>
-
-				<div class="spalteRechts" style="height: 100%">
+				<div class="spalteRechts">
 					<div class="stueck">
-						<div class="bild" > style="height:362px"
+						<div class="bild" >
+							<div style="height:4em"></div>
 							<h1>Wohnzimmer</h1>
 							mit Couch, Sesseln, 
 							Tischchen, Schrankwand, 
@@ -29,28 +19,38 @@
 							und Essecke
 						</div>
 					</div>
-
-					<div class="stueck"  style="position:relative; bottom:0;">
+				</div>
+			</div>
+			<div class="bildergalerie">
+				<div class="spalteLinks">
+					<div class="stueck">
+						<div class="bild">
+							<img src="bilder/fewo2/kuechenzeile.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="spalteRechts">
+					<div class="stueck">
 						<div class="bild">
 							<img src="bilder/fewo2/essecke.jpg" alt="">
 						</div>
 					</div>
 				</div>
 			</div>
-			
 			<div class="bildergalerie">
 				<div class="spalteLinks">
-					<div class="stueck">
-						<div class="bild">
-							<h1>Schlafzimmer</h1>
-							mit Doppelbett und Etagenbett
-						</div>
-					</div>
 					<div class="stueck">
 						<div class="bild">
 							<img src="bilder/fewo2/schlafzimmer_etagenbett.jpg" alt="">
 						</div>
 					</div>						
+					<div class="stueck">
+						<div class="bild">
+							<div style="height:4em"></div>
+							<h1>Schlafzimmer</h1>
+							mit Doppelbett und Etagenbett
+						</div>
+					</div>
 				</div>
 				<div class="spalteRechts">
 					<div class="stueck">
@@ -80,6 +80,5 @@
 					</div>
 				</div>
 			</div>
-					{{{include(languageName('fewo2/informationen.txt'))}}}
 
 {{{include('bottom.html.t')}}}
