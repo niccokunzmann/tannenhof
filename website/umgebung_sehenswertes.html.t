@@ -20,7 +20,7 @@
 											u"Kletterwaldes")}}}
 							und des 
 							{{{floatLink(	"http://www.tabarz.de/cms/erleben/sehenswertes/rhododendron-park/",	
-											"http://www.tabarz.de/cms/typo3temp/pics/a13869bffc.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/f/fa/Bl%C3%BCte_FC.jpg", 
 											u"Rhododendronparks")}}}
 							am Datenberg.
 						</p>
@@ -29,23 +29,27 @@
 							Beliebte Ziele sind der 
 							
 							{{{floatLink(	"http://www.rennsteig.de/",	
-											"http://www.rennsteig.de/fileadmin/template/default/pics/startseite/rennsteigkarte.jpg", 
+											"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/90px-Rennsteig.JPG", 
 											u"Rennsteig")}}}
 							, der 
 							{{{floatLink(	"http://www.norby.de/inselsberg.htm",	
 											"bilder/umgebung/inselsberg.jpg", 
 											u"Inselsberg")}}}
 							, die 
-							<a href="http://www.marienglashoehle.de/">Marienglashöhle&nbsp;und&nbsp;Friedrichroda</a>
-							.
+							{{{floatLink(	"http://www.marienglashoehle.de/",	
+											"http://upload.wikimedia.org/wikipedia/commons/7/78/Marienglashoehle_friedrichroda.jpg", 
+											u"Marienglashöhle&nbsp;und&nbsp;Friedrichroda")}}}.
 						</p>
 						<p>
 							Mit der traditionsreichen 
 							{{{floatLink(	"http://www.waldbahn-gotha.de/",	
-											"http://www.waldbahn-gotha.de/Main_seite/bild26-winter.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/120px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
 											u"Thüringer&nbsp;Waldbahn")}}}
 							können Sie durch die schöne Landschaft bis nach 
-							<a href="http://www.gotha.de/">Gotha</a>
+							{{{floatLink(	"http://www.gotha.de/",	
+											"http://upload.wikimedia.org/wikipedia/commons/4/4a/Panorama_Gotha_02.jpg", 
+											u"Gotha")}}}
+							
 							fahren.
 						</p>
 						<p>
@@ -55,7 +59,7 @@
 											u"Inselsberges")}}}
 							können Sie auf der 
 							{{{floatLink(	"http://www.sommerrodelbahn-inselsberg.de/sommerrodelbahn-inselberg.html",	
-											"http://www.sommerrodelbahn-inselsberg.de/typo3temp/pics/b16c2d6c12.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Panoramapark_Rodel.jpg/220px-Panoramapark_Rodel.jpg", 
 											u"Sommerrodelbahn")}}}
 							und mit anderen Attraktionen einen Tag mit aktiver Freizeitgestaltung erleben.
 						</p>
@@ -72,9 +76,9 @@
 						<p>
 							Eine große Anzahl an Prospekten über Umgebung liegt in der Ferienwohnung für Sie bereit.
 							Die 
-							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/",	
+							<!--{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/",	
 											"http://www.tabarz.de/cms/typo3temp/pics/703f45b28e.jpg", 
-											u"Touristinformation")}}}
+											u"Touristinformation")}}}-->
 							des Ortes ist etwa eine Gehminute entfernt.
 						</p>
 					</div>
