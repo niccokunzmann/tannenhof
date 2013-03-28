@@ -225,7 +225,7 @@ function createFloatingImage(link, url) {
 	var top = linkPosition.top + linkPosition.height
 	var htmlLine = 
 				"<div class=\"floatingImageDiv\" id=\"floatingImageDiv\" " + 
-				"style=\"top: " + top + "; left: " + left + "\"><img src=\"" + url + "\" width=\"" + imageWidth + "\"/></div>";
+				"style=\"top: " + top + "px ; left: " + left + "px;\"><img src=\"" + url + "\" width=\"" + imageWidth + "\"/></div>";
 	document.body.innerHTML += htmlLine;
 }
 

@@ -31,8 +31,9 @@
 						{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Goethe_Schiller_Weimar.jpg",	
 											"http://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
 											u"Weimar")}}} 
-						by Andreas Trepte, <a href="http://www.photo-natur.de">www.photo-natur.de</a>
+						by Andreas Trepte, <a href="http://www.photo-natur.de" target="photonatur1">www.photo-natur.de</a>
 					</div>
 					
+					<div class="umgebung"></div>
 		
 {{{include('bottom.html.t')}}}
