@@ -30,12 +30,12 @@
 							
 							{{{floatLink(	"http://www.rennsteig.de/",	
 											"http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/250px-Rennsteig.JPG", 
-											u"Rennsteig")}}}
-							, der 
+											u"Rennsteig")}}}, 
+							der 
 							{{{floatLink(	"http://www.norby.de/inselsberg.htm",	
 											"bilder/umgebung/inselsberg.jpg", 
-											u"Inselsberg")}}}
-							, die 
+											u"Inselsberg")}}}, 
+							die 
 							{{{floatLink(	"http://www.marienglashoehle.de/",	
 											"http://upload.wikimedia.org/wikipedia/commons/7/78/Marienglashoehle_friedrichroda.jpg", 
 											u"Marienglashöhle&nbsp;und&nbsp;Friedrichroda")}}}.
@@ -71,8 +71,7 @@
 							einen Skilift für Kinder in unmittelbarer Nähe und einen 
 							{{{floatLink(	"https://www.skigebiete-test.de/skiurlaub/tabarz-inselsberg-.html",	
 											"bilder/umgebung/inselsberg_skihang.jpg", 
-											u"Schlepplift&nbsp;am&nbsp;Großen&nbsp;Inselsberg")}}}
-							.
+											u"Schlepplift&nbsp;am&nbsp;Großen&nbsp;Inselsberg")}}}.
 							Loipen und Winterwanderwege ergänzen dieses Angebot. 
 							Ein Ski- und Schlittenverleih befindet sich direkt im Ort.
 						</p>
