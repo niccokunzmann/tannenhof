@@ -14,7 +14,15 @@
 							{{{floatLink(	"http://www.thueringen.info/gotha-schloss-friedenstein.html",	
 											"http://www.thueringen.info/fileadmin/bilder/kultur/schloss-friedenstein/bild_1.jpg", 
 											u"Schloss&nbsp;Friedenstein")}}},
-							die Landeshauptstadt Erfurt und die Stadt der deutschen Klassiker, Weimar.
+							die  
+							{{{floatLink(	"http://www.erfurt.de/ef/de/erleben/entdecken/rendezvous/index.html",	
+											"http://www.erfurt.de/mam/ef/erleben/entdecken/rendezvous/fittosize_98_708_0_e0bd3a28743d747aa30e56b82c4dce90_panorama_dom_und_severi.jpg", 
+											u"Landeshauptstadt Erfurt")}}},
+							
+							und die Stadt der deutschen Klassiker, 
+							{{{floatLink(	"https://www.weimar.de/homepage/",	
+											"https://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
+											u"Weimar")}}}.
 						</p>
 						<p>
 							Die 
