@@ -217,6 +217,10 @@ div.floatingImageDiv {
 	position: absolute;
 }
 
+div.umgebung a.mitBild {
+	font-weight: bold;
+}
+
 /* Fewo */
 div.bildergalerie {
 	overflow: hidden;
