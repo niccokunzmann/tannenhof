@@ -29,7 +29,7 @@
 							Beliebte Ziele sind der 
 							
 							{{{floatLink(	"http://www.rennsteig.de/",	
-											"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/90px-Rennsteig.JPG", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/250px-Rennsteig.JPG", 
 											u"Rennsteig")}}}
 							, der 
 							{{{floatLink(	"http://www.norby.de/inselsberg.htm",	
@@ -43,7 +43,7 @@
 						<p>
 							Mit der traditionsreichen 
 							{{{floatLink(	"http://www.waldbahn-gotha.de/",	
-											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/120px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/220px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
 											u"Thüringer&nbsp;Waldbahn")}}}
 							können Sie durch die schöne Landschaft bis nach 
 							{{{floatLink(	"http://www.gotha.de/",	

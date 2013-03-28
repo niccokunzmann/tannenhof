@@ -16,19 +16,18 @@
 											u"Schloss&nbsp;Friedenstein")}}},
 							die  
 							{{{floatLink(	"http://www.erfurt.de/ef/de/erleben/entdecken/rendezvous/index.html",	
-											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/120px-Erfurt_cathedral_and_severi_church-2.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/300px-Erfurt_cathedral_and_severi_church-2.jpg", 
 											u"Landeshauptstadt Erfurt")}}},
 							
 							und die Stadt der deutschen Klassiker, 
 							{{{floatLink(	"http://www.weimar.de/homepage/",	
-											"http://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Goethe_Schiller_Weimar.jpg/220px-Goethe_Schiller_Weimar.jpg", 
 											u"Weimar")}}}.
 						</p>
 						<p>
 							Die 
-							{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/",	
-											"http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png", 
-											u"Kurgesellschaft&nbsp;Tabarz")}}},
+							<!-- http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png -->
+							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/">Kurgesellschaft&nbsp;Tabarz</a>
 							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
 						</p>
 					</div>

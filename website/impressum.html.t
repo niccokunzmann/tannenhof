@@ -17,7 +17,7 @@
 					
 					<div class="impressum">
 						Diese Webseite wurde entwickelt von Kirstin Heidler und Nicco Kunzmann.
-						Sollten Sie Probleme mit der Webseite bekommen oder Bilder verwenden wollen, 
+						Sollten Sie Probleme mit der Webseite bekommen
 						so k&ouml;nnen Sie auf <a href="https://github.com/niccokunzmann/tannenhof/issues">
 						github eine Meldung einreichen.
 					  </a>
@@ -36,14 +36,14 @@
 						Es folgen Bilder und ihre Quellen, die von anderen Webseiten kommen:
 						
 						<div class="quelle">
-							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Goethe_Schiller_Weimar.jpg",	
+							{{{floatLink(	"http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Goethe_Schiller_Weimar.jpg/220px-Goethe_Schiller_Weimar.jpg",	
 											"http://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
 											u"Weimar")}}} 
 							by Andreas Trepte, <a href="http://www.photo-natur.de" target="photonatur1">www.photo-natur.de</a>
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Erfurt_cathedral_and_severi_church-2.jpg",	
-											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/120px-Erfurt_cathedral_and_severi_church-2.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/300px-Erfurt_cathedral_and_severi_church-2.jpg", 
 											u"Erfurt")}}} 
 							from <a href="http://de.wikipedia.org">Wikipedia</a>
 						</div>
@@ -67,7 +67,7 @@
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Rennsteig.JPG",	
-											"http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/90px-Rennsteig.JPG", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/250px-Rennsteig.JPG", 
 											u"Rennsteig")}}} 
 							by Heiko Jahn, Galahad under <a href="https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License_1.2"> GNU Free Documentation License</a>
 						</div>
@@ -79,7 +79,7 @@
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://de.wikipedia.org/wiki/Tabarz",	
-											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/120px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/220px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
 											u"Th&uuml;ringer Waldbahn")}}} 
 							by <a href="http://commons.wikimedia.org/wiki/User:Sebastian_Wallroth">Sebastian Wallroth</a>
 						</div>
