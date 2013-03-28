@@ -40,9 +40,9 @@
 					<p>
 						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" target="fewo1verfuegbarkeit">
 							{{{choose(
-								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 2 Personen)', 
-								u'Availability of appartment 1 (for 2 people)', 
-								u'Календарь для заявки апартамента 1 (2 человека)') \
+								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 1 bis 2 Personen)', 
+								u'Availability of appartment 1 (for 1 to 2 people)', 
+								u'Календарь для заявки апартамента 1 (с 1 до 2 человека)') \
 							}}}
 						</a>						
 					</p>

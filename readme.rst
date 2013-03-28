@@ -5,7 +5,29 @@ TODO
 
 zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
 
-bild von fernseher und schlafzimmer kommt noch dazu
+??? bild von fernseher und schlafzimmer kommt noch dazu ???
+
+
+
+
+
+
+erst deutsch, dann andere srpachen.
+
+bilder bei umgebung: fremde bilder wegmachen.
+
+
+done 
+----
+
+fewo: 1-4 personen, 1-2 personen
+
+bilder bei umgebung: unten mehr platz
+Umgebung: unterstreichen mehr staedte. links
+links bei umgebung: anderre Farbe für di mit bildern
+
+Umgebung: einzelne seiten
+
 
 Wohnzimmer":" weg
 Fewo1: 
@@ -13,21 +35,7 @@ Fewo1:
 	bad und schlafzimmer zusammen. text drunter ist ok
 
 
-fewo: 1-4 personen, 1-2 personen
-
-Umgebung: einzelne seiten
-unterstreichen mehr staedte. links
-
 + Rundgang
-
-erst deutsch, dann andere srpachen.
-
-bilder bei umgebung: unten mehr platz, fremde bilder wegmachen.
-links bei umgebung: anderre Farbe für di mit bildern
-
-
-done 
-----
 
 Wohnungen: Perise weg, stattdessen preise und verfügbarkeit daneben
 navigation wie in index seite word dokument

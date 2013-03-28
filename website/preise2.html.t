@@ -49,9 +49,9 @@
 
 						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" target="fewo2verfuegbarkeit">
 							{{{choose(
-								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 4 Personen)', 
-								u'Availability of appartment 2 (for 4 people)', 
-								u'Календарь для заявки апартамента 2 (4 человека)') \
+								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 1 bis 4 Personen)', 
+								u'Availability of appartment 2 (for 1 to 4 people)', 
+								u'Календарь для заявки апартамента 2 (с 1 до 4 человека)') \
 							}}}
 						</a>
 					</p>
