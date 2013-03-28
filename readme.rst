@@ -2,19 +2,14 @@
 TODO
 ----
 
+bilder bei umgebung: fremde bilder wegmachen.
 
 zeilenabstand nach erster zeie soll gleich dem anderen zeilenabstand sein
+	Das Problem tritt nur bei Firefox auf, nicht bei IE, Safari, Chrome
 
 ??? bild von fernseher und schlafzimmer kommt noch dazu ???
 
-
-
-
-
-
 erst deutsch, dann andere srpachen.
-
-bilder bei umgebung: fremde bilder wegmachen.
 
 
 done 
