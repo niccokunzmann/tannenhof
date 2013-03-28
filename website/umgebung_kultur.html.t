@@ -17,7 +17,7 @@
 							die  
 							{{{floatLink(	"http://www.erfurt.de/ef/de/erleben/entdecken/rendezvous/index.html",	
 											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/300px-Erfurt_cathedral_and_severi_church-2.jpg", 
-											u"Landeshauptstadt Erfurt")}}},
+											u"Landeshauptstadt&nbsp;Erfurt")}}},
 							
 							und die Stadt der deutschen Klassiker, 
 							{{{floatLink(	"http://www.weimar.de/homepage/",	

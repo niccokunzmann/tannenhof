@@ -85,7 +85,7 @@
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Panorama_Gotha_02.jpg",	
-											"http://upload.wikimedia.org/wikipedia/commons/4/4a/Panorama_Gotha_02.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Panorama_Gotha_02.jpg/800px-Panorama_Gotha_02.jpg", 
 											u"Gotha")}}} 
 							by <a href="https://de.wikipedia.org/wiki/User:Muelli24">muelli24</a>
 						</div>

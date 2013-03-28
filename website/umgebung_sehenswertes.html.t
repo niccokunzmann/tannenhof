@@ -47,10 +47,13 @@
 											u"Thüringer&nbsp;Waldbahn")}}}
 							können Sie durch die schöne Landschaft bis nach 
 							{{{floatLink(	"http://www.gotha.de/",	
-											"http://upload.wikimedia.org/wikipedia/commons/4/4a/Panorama_Gotha_02.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Panorama_Gotha_02.jpg/800px-Panorama_Gotha_02.jpg", 
 											u"Gotha")}}}
-							
-							fahren.
+							fahren, um beispielsweise
+							{{{floatLink(	"http://www.thueringen.info/gotha-schloss-friedenstein.html",	
+											"http://upload.wikimedia.org/wikipedia/commons/4/48/Friedensteinthronsaal.jpg", 
+											u"Schloss&nbsp;Friedenstein")}}} 
+							zu besichtigen.
 						</p>
 						<p>
 							Am Fuße des 
