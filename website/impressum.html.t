@@ -45,13 +45,7 @@
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Erfurt_cathedral_and_severi_church-2.jpg",	
 											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/300px-Erfurt_cathedral_and_severi_church-2.jpg", 
 											u"Erfurt")}}} 
-							from <a href="http://de.wikipedia.org">Wikipedia</a>
-						</div>
-						<div class="quelle">
-							{{{floatLink(	"http://de.wikipedia.org/wiki/Schloss_Friedenstein",	
-											"http://upload.wikimedia.org/wikipedia/commons/4/48/Friedensteinthronsaal.jpg", 
-											u"Schloss Friedenstein")}}} 
-							from <a href="http://de.wikipedia.org">Wikipedia</a>
+							by <a href="http://commons.wikimedia.org/wiki/User:Thuringius">Thuringius</a>
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Friedensteinthronsaal.jpg",	
@@ -60,16 +54,16 @@
 							by Stefan Christian Hoja, <a href="https://commons.wikimedia.org/w/index.php?title=User:Etielle&action=edit&redlink=1">Etielle</a>
 						</div>
 						<div class="quelle">
-							{{{floatLink(	"http://de.wikipedia.org/wiki/Rhododendron",	
+							{{{floatLink(	"https://commons.wikimedia.org/wiki/File:Bl%C3%BCte_FC.jpg",	
 											"http://upload.wikimedia.org/wikipedia/commons/f/fa/Bl%C3%BCte_FC.jpg", 
 											u"Rhododendren")}}} 
-							from <a href="http://de.wikipedia.org">Wikipedia</a>
+							by <a href="https://de.wikipedia.org/wiki/User:LimboDancer">Jochen Schneider</a>
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://commons.wikimedia.org/wiki/File:Rennsteig.JPG",	
 											"http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rennsteig.JPG/250px-Rennsteig.JPG", 
 											u"Rennsteig")}}} 
-							by Heiko Jahn, Galahad under <a href="https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License_1.2"> GNU Free Documentation License</a>
+							by Heiko Jahn, Galahad®
 						</div>
 						<div class="quelle">
 							{{{floatLink(	"http://de.wikipedia.org/wiki/Marienglash%C3%B6hle",	
@@ -78,7 +72,7 @@
 							by <a href="http://de.wikipedia.org/wiki/Benutzer:Andreas_Hannusch">Andreas Hannusch</a>
 						</div>
 						<div class="quelle">
-							{{{floatLink(	"http://de.wikipedia.org/wiki/Tabarz",	
+							{{{floatLink(	"https://commons.wikimedia.org/wiki/File:Th%C3%BCringerwaldbahn_in_Tabarz.jpg",	
 											"http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Th%C3%BCringerwaldbahn_in_Tabarz.jpg/220px-Th%C3%BCringerwaldbahn_in_Tabarz.jpg", 
 											u"Th&uuml;ringer Waldbahn")}}} 
 							by <a href="http://commons.wikimedia.org/wiki/User:Sebastian_Wallroth">Sebastian Wallroth</a>
