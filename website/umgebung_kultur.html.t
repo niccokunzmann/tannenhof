@@ -8,20 +8,20 @@
 						<p>
 							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
 							{{{floatLink(	"http://www.wartburg-eisenach.de/frame_wn.htm",	
-											"http://www.wartburg-eisenach.de/pics/winter_nacht.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/3/32/Wartburg_von_Br%C3%BCcke.jpg", 
 											u"Wartburg")}}}, 
 							in die Residenzstadt Gotha mit dem 
 							{{{floatLink(	"http://www.thueringen.info/gotha-schloss-friedenstein.html",	
-											"http://www.thueringen.info/fileadmin/bilder/kultur/schloss-friedenstein/bild_1.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/4/48/Friedensteinthronsaal.jpg", 
 											u"Schloss&nbsp;Friedenstein")}}},
 							die  
 							{{{floatLink(	"http://www.erfurt.de/ef/de/erleben/entdecken/rendezvous/index.html",	
-											"http://www.erfurt.de/mam/ef/erleben/entdecken/rendezvous/fittosize_98_708_0_e0bd3a28743d747aa30e56b82c4dce90_panorama_dom_und_severi.jpg", 
+											"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Erfurt_cathedral_and_severi_church-2.jpg/120px-Erfurt_cathedral_and_severi_church-2.jpg", 
 											u"Landeshauptstadt Erfurt")}}},
 							
 							und die Stadt der deutschen Klassiker, 
-							{{{floatLink(	"https://www.weimar.de/homepage/",	
-											"https://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
+							{{{floatLink(	"http://www.weimar.de/homepage/",	
+											"http://upload.wikimedia.org/wikipedia/commons/6/65/Goethe_Schiller_Weimar.jpg", 
 											u"Weimar")}}}.
 						</p>
 						<p>
