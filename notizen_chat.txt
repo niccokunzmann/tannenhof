@@ -1,0 +1,29 @@
+: ladezeit für 1000er-dsl akzeptabel machen?
+Nicco Kunzmann: guck..
+Nicco Kunzmann: ich denke, ist
+Nicco Kunzmann: kann ic hja noch gucken
+Nicco Kunzmann: ich schreibs auf
+: (bin ja grad "auf dem land", brauchte ne weile, bis die menüstruktur manifestiert war und die bilder da)
+Nicco Kunzmann: ich probiers dann mal mit throttling aus
+Nicco Kunzmann: aber erstmal gute nacht!
+: hm... <link rel="prefetch" ... > innerhalb eines div-tags ist schon abenteuerlich - zerhaut ggf. optimierungen. links gehören in den header.
+: seite während des ladevorgangs: http://ft.trillian.im/d19fa7a0c02c5870fe7df2d29377e1d4e9b08c6f/6ft0JPI7eJ8B48X7yaCJ1Dbq0Uelf.jpg
+: (impressum)
+: übersetzungen für die einzelnen seiten-inhalte macht ihr noch, oder?
+: mal ein ladezeiten-profiling: http://ft.trillian.im/d19fa7a0c02c5870fe7df2d29377e1d4e9b08c6f/6ft1ixamN8OIoRyhiUCOYrWG5nAOU.jpg
+: die seite ist auf den ersten blick auch sehr unangenehm zu lesen... das lässt sich relativ leicht verbessern, z.b. durch mehr platz: http://ft.trillian.im/d19fa7a0c02c5870fe7df2d29377e1d4e9b08c6f/6ft1tq1Qb7qavWwdeuXt1tIfff8qG.jpg
+: und wenn text linksbündig und bilder zentriert sind, wirkd das iwie unausgegoren
+: kleine faustregel: bündiger fließtext nicht breiter als 60 - 70 zeichen... der block da oben hat 130 - 140 zeichen
+: notfalls zweispaltig oder die bilder neben dem text (textumfluss, ...) anordnen
+: HOLY CRAP... h1 und div.header h1 sind ja brutalste vergewaltigungen von typografie
+-	verstehe ich nicht.. sonst wäre es anders
+: und menüs, die nur bei mouse-over aktiviert werden, sind auf touch-geräten nicht erreichbar
+: kontakt und impressum lässt sich konsolidieren, denke ich
+: es ist rechtlich immernoch in ordnung, über zwei klicks zum impresm zu gelangen, solange der weg offensichtlich ist
+: meine mutter sah das eben und meinte, das sieht aus als wäre man da durch ein paar link-klicks zufällig gelandet - es fehlt irgendwas, was als startseite erkennbar ist
+: ein klick auf "wohnungen" öffnet unerwarteterweise fewo1... ich dachte, da ist entweder eine übersicht über beide wohnungen drin oder es passiert zumindest nix, um mich in das menü zu zwingen
+: die pfeiltasten im "rundgang" funktionieren nicht
+: und dass die nach-rechts und nach-links-links ihre position verändern wärend des durchblätterns ist für mich immer einer der sieben ringe der hölle :D
+: btw.: auf kontrastarmen monitoren mag das gehen, aber ein rot-grün-kontrast in der navigationsleiste ist reichlich unangenehm
+: allgemein sind farbkontraste ziemlich böse bei aktiven lichtquellen - ich würde hier absolut nur mit helligkeiten arbeiten
+: problem ist, dass aufgrund der verschieden starken brechung einzelner farben im auge sich die linse auf einen farbkanal fokussieren muss, der andere wirkt automatisch defokussiert ... das sollte man beim design immer im auge behalten ;) 

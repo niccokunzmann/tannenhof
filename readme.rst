@@ -13,6 +13,9 @@ Menu geht in Internetexplorer.
 
 Muss ich die Lizenz mitverlinken?
 
+-	siehe notizen_chat.txt
+
+
 done 
 ----
 
