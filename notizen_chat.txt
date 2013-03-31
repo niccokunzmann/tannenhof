@@ -27,3 +27,18 @@ Nicco Kunzmann: aber erstmal gute nacht!
 : btw.: auf kontrastarmen monitoren mag das gehen, aber ein rot-grün-kontrast in der navigationsleiste ist reichlich unangenehm
 : allgemein sind farbkontraste ziemlich böse bei aktiven lichtquellen - ich würde hier absolut nur mit helligkeiten arbeiten
 : problem ist, dass aufgrund der verschieden starken brechung einzelner farben im auge sich die linse auf einen farbkanal fokussieren muss, der andere wirkt automatisch defokussiert ... das sollte man beim design immer im auge behalten ;) 
+
+: http://lint.brihten.com/html/
+: ach ja... syntaktische fehler hat dein html auch :D
+: ist aber das geringste problem bei den robusten browsern heute
+Nicco Kunzmann: hey, danke..
+Nicco Kunzmann: man kann sichs denken, wie immer, dass es so ein tool gibt
+Nicco Kunzmann: aber dran denkne, tat ich doch nciht
+: eins... ich fand dutzende :D
+: manche räumen sogar automatisiert auf
+Nicco Kunzmann: räumen auf?
+: naja, transformieren den code in style-konformen code'
+: nicht immer sinnvoll
+dann ist auf der indexseite definitiv mehr info gefragt... z.b. ferienwohnungen, direkt-links zu den sonst nur über mouse-over-menüs anzutreffenden seiten, ...
+: google findet die infos zwar auch so, aber die leute hauen sonst sofort wieder ab, wenn sie nicht auf den ersten blick sehen, um was es geht
+: aber um SEO kann man sich zum schluss kümmern, wenn der kundenorientierte teil stimmt
