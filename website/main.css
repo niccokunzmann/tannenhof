@@ -190,6 +190,13 @@ div.image img {
 
 div.impressum {
 	width: 100%;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.kontakt {
+	width: 100%;
 	text-align: center;
 	margin-top: 1em;
 	margin-bottom: 1em;
