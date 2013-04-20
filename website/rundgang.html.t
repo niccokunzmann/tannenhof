@@ -3,7 +3,8 @@
 
 <script type="text/javascript">
 <!--
-document.write("<p>Sie k&ouml;nnen dir Pfeiltasten Rechts und Links auf der Tastatur verwenden, um durch den Rundgang zu navigieren.</p>")
+// in script weil es dann weg ist, wenn kein javascript da ist.
+document.write("<p>Sie k&ouml;nnen die Pfeiltasten &#8592; und &#8594; auf der Tastatur verwenden, um durch den Rundgang zu navigieren.</p>")
 //-->
 </script>
 
