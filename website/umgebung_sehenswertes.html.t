@@ -81,6 +81,7 @@
 							<!--{{{floatLink(	"http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/",	
 											"http://www.tabarz.de/cms/typo3temp/pics/703f45b28e.jpg", 
 											u"Touristinformation")}}}-->
+                            <a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">Touristinformation</a>
 							des Ortes ist etwa eine Gehminute entfernt.
 						</p>
 					</div>

@@ -28,10 +28,10 @@
 					<div class="impressum">
 						<h3>Bilder</h3>
 						
-						Alle Bilder, die sich auf dieser Webseite im Ordner bilder befinden, können frei benutzt werden.<br/>
+						Alle Bilder, die sich auf dieser Webseite im Ordner <a href="/bilder">bilder</a> befinden, können mit Angabe der Webseite frei benutzt werden.<br/>
 						Die gesamte Webseite und lokale Bilder sind unter der <a href="http://opensource.org/licenses/MIT">MIT Lizenz</a> publiziert.
-						Bedingung ist, dass bei der Verwendung diese Webseite mit verlinkt wird, sollte es m&ouml;glich sein.
-						Danke!<br/>
+                        
+						<br/>
 						
 						Es folgen Bilder und ihre Quellen, die von anderen Webseiten kommen:
 						
