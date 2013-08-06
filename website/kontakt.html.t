@@ -16,4 +16,10 @@
 					
 					<div class="kontakt">{{{choose('E-Mail', 'E-Mail', u'Электро́нная По́чта')}}}: {{{include('helper/email.html.t')}}}</div>
 
+                    <div class="kontakt">
+                        <a href="{{{languageName('impressum.html')}}}">
+							{{{choose('Impressum', 'Imprint', u'Импрессум')}}}
+						</a>
+                    </div>
+                    
 {{{include('bottom.html.t')}}}
