@@ -1,4 +1,7 @@
 ﻿{{{include('top.html.t')}}}
+
+            <h1 class="fewo">{{{choose('Ferienwohnung 2', 'Apartment 2', u'Апартамент 2')}}}</h1>
+
 			<div class="bildergalerie">
 				<div class="spalteLinks">
 					<div class="stueck">
@@ -9,7 +12,7 @@
 				</div>
 				<div class="spalteRechts">
 					<div class="stueck">
-						<div class="bild" >
+						<div class="bild">
 							<div style="height:4em"></div>
 							<h1>Wohnzimmer</h1>
 							mit Couch, Sesseln, 

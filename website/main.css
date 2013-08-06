@@ -146,7 +146,7 @@ ul#navigation a, ul#navigation span {
 	text-decoration: none; font-weight: bold;
 	border: 0;
 	border-left-color: white; border-top-color: white;
-	color: maroon; background-color: #18C639; /*  63784E*/
+	color: black; background-color: #18C639; /*  63784E*/
 }
 
 ul#navigation a:hover, ul#navigation span, li a#aktuell {
@@ -182,10 +182,14 @@ div.image {
 	margin-top: 0.5em;
 	margin-bottom: 0.25em;
 	padding: 0.25em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 div.image img {
 	height: 400px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 div.impressum {
@@ -229,6 +233,11 @@ div.umgebung a.mitBild {
 }
 
 /* Fewo */
+
+h1.fewo {
+    text-align: center;
+}
+
 div.bildergalerie {
 	overflow: hidden;
 	padding-bottom: 1em;

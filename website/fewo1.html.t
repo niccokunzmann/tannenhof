@@ -1,5 +1,7 @@
 ﻿{{{include('top.html.t')}}}
 
+            <h1 class="fewo">{{{choose('Ferienwohnung 1', 'Apartment 1', u'Апартамент 1')}}}</h1>
+
 			<div class="bildergalerie">
 				<div class="spalteLinks">
 					<div class="stueck">
