@@ -75,7 +75,7 @@
 					</li>
 
 					<li>
-						<a href="{{{languageName('umgebung_kultur.html')}}}">
+						<a href="{{{languageName('umgebung.html')}}}">
 							{{{choose('Umgebung', 'Area', u'Окресность')}}}
 						</a>
 						<ul>
