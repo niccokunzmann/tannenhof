@@ -16,8 +16,15 @@ import time
 
 languages = ['de', 'en', 'ru']
 
-outputDir = '../output'
-inputDir = '.'
+try:
+    __file__
+except NameError:
+    here = '.'
+else:
+    here = os.path.dirname(__file__)
+
+outputDir = os.path.join(here, '../output')
+inputDir = here
 ## !!!! FILE_DEBUG may help debugging python scripts
 FILE_DEBUG = False
 DEBUG = './debug/'

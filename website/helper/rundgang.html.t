@@ -1,7 +1,7 @@
 ﻿{{{
 
 ______prefix = u'rundgang'
-______rundgang = [unicode(_name) for _name in os.listdir('.') if _name.startswith(______prefix) and _name.endswith('.html.t')]
+______rundgang = [unicode(_name) for _name in os.listdir(here) if _name.startswith(______prefix) and _name.endswith('.html.t')]
 ______rundgang.sort()
 
 def rundgang(name, bild = None): 
