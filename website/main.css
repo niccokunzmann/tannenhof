@@ -111,8 +111,7 @@ div#clear{
 
 ul#navigation {
 	margin: 0;
-	margin-left: 1.5em; padding: 0;
-	text-align: center;
+	margin-left: 3em; padding: 0;
 }
 
 ul#navigation li {
@@ -141,7 +140,7 @@ ul#navigation li ul li {
 
 ul#navigation a, ul#navigation span {
 	display: block;
-	width: 9.0em;/* Breite den in li enthaltenen Elementen zuweisen */
+	width: 10.0em;/* Breite den in li enthaltenen Elementen zuweisen */
 	padding: 0.1em 0.1em;
 	text-decoration: none; font-weight: bold;
 	border: 0;
@@ -160,7 +159,8 @@ ul#navigation li ul span {/* aktuelle Unterseite kennzeichnen */
 }
 
 ul#navigation li ul li a{
-	width: 10.0em;
+	width: 11.0em;
+    padding-right: 0.2em;
 }
 
 div#content{
