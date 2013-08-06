@@ -33,7 +33,7 @@
 					</li>
 
 					<li>
-						<a href="{{{languageName('fewo1.html')}}}">
+						<a href="{{{languageName('fewo.html')}}}">
 							{{{choose('Wohnungen', 'Apartments', u'Апартаменты')}}}
 						</a>
 						<ul>
@@ -51,7 +51,7 @@
 					</li>
 
 					<li>
-						<a href="{{{languageName('preise1.html')}}}">
+						<a href="{{{languageName('preise.html')}}}">
 							{{{choose('Preise', 'Prizes', u'Цены')}}}
 						</a>
 						<ul>
@@ -96,7 +96,7 @@
 							</li>
 							<li>
 								<a href="{{{languageName('rundgang.html')}}}">
-									{{{choose('Rundgang', 'Rundgang', u'jkfjskdjflsl')}}}
+									{{{choose('Rundgang', 'Viewing', u'Осмотр')}}}
 								</a>
 							</li>
 						</ul>
@@ -105,11 +105,13 @@
 						<a href="{{{languageName('kontakt.html')}}}">
 							{{{choose('Kontakt', 'Contact', u'Контакт')}}}
 						</a>
-					</li>
-					<li>
-						<a href="{{{languageName('impressum.html')}}}">
-							{{{choose('Impressum', 'Imprint', u'Импрессум')}}}
-						</a>
+                        <ul>
+                            <li>
+                                <a href="{{{languageName('impressum.html')}}}">
+                                    {{{choose('Impressum', 'Imprint', u'Импрессум')}}}
+                                </a>
+                            </li>
+                        </ul>
 					</li>
 				</ul>		
 			</div>
