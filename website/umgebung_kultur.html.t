@@ -27,7 +27,7 @@
 						<p>
 							Die 
 							<!-- http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png -->
-							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/">Kurgesellschaft&nbsp;Tabarz</a>
+							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">Kurgesellschaft&nbsp;Tabarz</a>
 							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
 						</p>
 					</div>

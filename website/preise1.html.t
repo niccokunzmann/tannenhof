@@ -29,7 +29,7 @@
 						{{{choose(
 							u'''Unser Angebot für ihren Aufenthalt bei uns bitten wir per  
                             <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#099;&#111;&#110;&#064;&#116;&#045;&#111;&#110;&#108;&#105;&#110;&#101;&#046;&#100;&#101;">E-Mail</a>
-                            oder Telefon zu erfragen.
+                            oder Telefon zu erfragen.<br/>
 							Unter 3 Nächten  berechnen wir zusätzlich 25€ für die Endreinigung.''', \
 							u'''The prices are offered for one appartment and weekly or longer stay. For rent we ask you to request.
 							If you have any questions - please send us an 

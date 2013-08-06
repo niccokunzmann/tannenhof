@@ -17,10 +17,10 @@
 					
 					<div class="impressum">
 						Diese Webseite wurde entwickelt von Kirstin Heidler und Nicco Kunzmann.
-						Sollten Sie Probleme mit der Webseite bekommen
-						so k&ouml;nnen Sie auf <a href="https://github.com/niccokunzmann/tannenhof/issues">
-						github eine Meldung einreichen.
-					  </a>
+						Treten mit der Webseite Probleme auf, so können sie es
+                        <a href="https://github.com/niccokunzmann/tannenhof/issues">
+						melden
+                        </a>
 					</div>
 
 {{{include('helper/umgebung.html.t')}}}
