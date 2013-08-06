@@ -85,5 +85,11 @@
 							des Ortes ist etwa eine Gehminute entfernt.
 						</p>
 					</div>
+                    
+                    <h1>
+						<a href="{{{languageName('umgebung_einkauf.html')}}}">
+							{{{choose(u'Gesch&auml;fte &amp; Gastst&auml;tten', 'Shops', u'Магазины')}}}
+						</a>
+                    </h1>
 					
 {{{include('bottom.html.t')}}}

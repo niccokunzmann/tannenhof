@@ -17,4 +17,9 @@
 						</p>
 					</div>
 					
+                    <h1>
+						<a href="{{{languageName('rundgang.html')}}}">
+							{{{choose('Rundgang', 'Viewing', u'Осмотр')}}}
+						</a>
+                    </h1>
 {{{include('bottom.html.t')}}}

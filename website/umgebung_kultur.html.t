@@ -31,5 +31,10 @@
 							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
 						</p>
 					</div>
-					
+                    
+                    <h1>
+						<a href="{{{languageName('umgebung_sehenswertes.html')}}}">
+							{{{choose('Sehenswertes', 'Sights', u'Достопримечательности')}}}
+						</a>					
+                    </h1>
 {{{include('bottom.html.t')}}}
