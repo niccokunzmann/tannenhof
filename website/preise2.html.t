@@ -35,12 +35,16 @@
 					</table>
 					<p>
 						{{{choose(
-							u'''Unser Angebot für ihren Aufenthalt bei uns bitten wir per Mail oder Telefon zu erfragen.
+							u'''Unser Angebot für ihren Aufenthalt bei uns bitten wir per  
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#099;&#111;&#110;&#064;&#116;&#045;&#111;&#110;&#108;&#105;&#110;&#101;&#046;&#100;&#101;">E-Mail</a>
+                            oder Telefon zu erfragen.
 							Unter 3 Nächten  berechnen wir zusätzlich 25€ für die Endreinigung.''', \
 							u'''The prices are offered for one appartment and weekly or longer stay. For rent we ask you to request.
-							If you have any questions - please send us an e-mail.
+							If you have any questions - please send us an 
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#099;&#111;&#110;&#064;&#116;&#045;&#111;&#110;&#108;&#105;&#110;&#101;&#046;&#100;&#101;">e-mail</a>.
 							If you stay for only one or two days we charge additional 25€ for cleaning. ''', \
-							u'''Мы с удовольствием вышлем Вам по почте, электронной почте или факсу предложение для индивидуального отдыха на нашей вилле.
+							u'''Мы с удовольствием вышлем Вам по почте, 
+                            <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#110;&#111;&#099;&#111;&#110;&#064;&#116;&#045;&#111;&#110;&#108;&#105;&#110;&#101;&#046;&#100;&#101;">электронной почте</a> или факсу предложение для индивидуального отдыха на нашей вилле.
 							Кроме–того мы были бы рады, ответить на Ваши вопросы по телефону.
 							Эсли вы остаётесь на один или два дня, очистка стоит дополнительно 25€.''') \
 						}}}
