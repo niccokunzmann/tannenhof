@@ -103,3 +103,4 @@ nosetests.xml
 /website/_rundgang/index.htm
 /website/_rundgang/left.bmp
 /website/_rundgang/right.bmp
+/userAndPassword.py
