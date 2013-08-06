@@ -5,6 +5,7 @@ try:
     from userAndPassword import user, password
     import ftplib
     import os
+    import urllib
 
     class Fehler(Exception):
         pass
@@ -39,12 +40,19 @@ try:
     add= ' ' + add
     
     # dateien umbenennen
-    dateiListe= ['bilder/startseite/baum.jpg', \
-                 'bilder/startseite/brunnen.jpg', \
-                 'bilder/startseite/front.jpg', \
-                 'bilder/startseite/seite.jpg', \
-                 ]
-##                 '', \
+    if not os.path.isfile('sommerWinterBilder.txt'):
+        url = 'https://raw.github.com/niccokunzmann/tannenhof/master/sommerWinterBilder.txt'
+        print 'empfange', url,
+        dateiListe = urllib.urlopen(url)
+        if dateiListe.code == 200:
+            print 'ok'
+        else:
+            print 'nicht ok'
+            raise Fehler('Konnte umzubenennende Dateien nicht empfangen. (%s)' % dateiListe.code)
+    else:
+        dateiListe = open('sommerWinterBilder.txt')
+    dateiListe = dateiListe.read().splitlines()
+    dateiListe = [l.strip() for l in dateiListe]
     dateiListe.sort(key= lambda a: a.count('/'))
     lastBasename= None
     mode= 0

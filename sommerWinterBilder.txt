@@ -1,0 +1,4 @@
+bilder/startseite/baum.jpg
+bilder/startseite/brunnen.jpg
+bilder/startseite/front.jpg
+bilder/startseite/seite.jpg
