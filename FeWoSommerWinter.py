@@ -39,12 +39,10 @@ try:
     add= ' ' + add
     
     # dateien umbenennen
-    dateiListe= ['/DSCF0127.JPG', \
-                 '/Tannen.JPG', \
-                 '/PIC_0005.JPG', \
-                 '/fewo1/Fewo1Blick.JPG', \
-                 '/fewo2/DSCF1175.JPG', \
-                 '/umgebung/inselsberg1.JPG', \
+    dateiListe= ['bilder/startseite/baum.jpg', \
+                 'bilder/startseite/brunnen.jpg', \
+                 'bilder/startseite/front.jpg', \
+                 'bilder/startseite/seite.jpg', \
                  ]
 ##                 '', \
     dateiListe.sort(key= lambda a: a.count('/'))
