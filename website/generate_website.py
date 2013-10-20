@@ -14,7 +14,7 @@ import os
 import re
 import time
 
-languages = ['de', 'en', 'ru']
+languages = ['de', 'en']#, 'ru']
 
 try:
     __file__
@@ -48,7 +48,7 @@ def write(path, content, utf8):
 
 # useful functions
 
-def choose(de, en, ru):
+def choose(de, en, ru = '!!TODO!!'):
     return locals()[language]
 
 def include(filename):

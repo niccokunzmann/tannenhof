@@ -14,9 +14,12 @@
 					<div class="stueck">
 						<div class="bild">
 							<div style="height:4em"></div>
-							<h1>Wohnzimmer</h1>
-							Couch mit Sesseln und Tischchen, Sat-TV, Radio, Telefon <br/>
-							Küchenzeile mit Geschirrspüler, Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr
+							<h1>{{{choose('Wohnzimmer', 'Living Room', 'Russisch')}}}</h1>
+              {{{choose(u'''
+                Couch mit Sesseln und Tischchen, Sat-TV, Radio, Telefon <br/>
+                Küchenzeile mit Geschirrspüler, Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr''', u'''
+                With arm-chair, couch, satellite-TV, radio, telephone<br/>
+                Kitchenet with dishwasher, cooking plates, coffee maker, water heater, toaster, refrigerator and dishes''')}}}
 						</div>
 					</div>
 				</div>
@@ -46,7 +49,7 @@
 							<img src="bilder/fewo1/schlafzimmer.jpg" alt="">
 						</div>
 						<div class="beschreibung">
-							Schlafzimmer mit Doppelbett
+              {{{choose(u'Schlafzimmer mit Doppelbett', u'Sleeping room with king-size bed')}}}
 						</div>
 					</div> 
 				</div>
@@ -57,8 +60,12 @@
 							<img src="bilder/fewo1/bad.jpg" alt="">
 						</div>
 						<div class="beschreibung">
-							Bad mit Dusche, WC, Föhn. <br/>
-							Handtücher und Bettwäsche sind inklusive und werden wöchentlich gewechselt.	
+							{{{choose(u'''
+                Bad mit Dusche, WC, Föhn. <br/>
+                Handtücher und Bettwäsche sind inklusive und werden wöchentlich gewechselt.	''', u'''
+                Bathroom with shower, toilet, hair dryer <br/>
+                Towels and bedlinen are inclusive and changed 
+                weekly. ''')}}}
 						</div>
 					</div>
 				</div>

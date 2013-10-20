@@ -5,11 +5,11 @@
 
 				<!-- Flaggen der Laender -->
 				
-				<div class="flag">
+				<!--<div class="flag">
 					<a href="{{{languageName(webFilePath, 'ru')}}}">
 						<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'ru')}}}" alt="Русский"/>
 					</a>
-				</div>
+				</div>-->
 				<div class="flag">
 					<a href="{{{languageName(webFilePath, 'en')}}}">
 						<img src="{{{languageName('bilder/flaggen/flagge.jpg', 'en')}}}" alt="English"/>
