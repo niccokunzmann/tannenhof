@@ -33,39 +33,14 @@
 					</li>
 
 					<li>
-						<a href="{{{languageName('fewo.html')}}}">
-							{{{choose('Wohnungen', 'Apartments', u'Апартаменты')}}}
-						</a>
-						<ul>
-							<li>
-								<a href="{{{languageName('fewo1.html')}}}">
-									{{{choose('Ferienwohnung 1', 'Apartment 1', u'Апартамент 1')}}}
-								</a>
-							</li>
-							<li>
-								<a href="{{{languageName('fewo2.html')}}}">
-									{{{choose('Ferienwohnung 2', 'Apartment 2', u'Апартамент 2')}}}
-								</a>
-							</li>
-						</ul>
-					</li>
-
-					<li>
-						<a href="{{{languageName('preise.html')}}}">
-							{{{choose('Preise', 'Prizes', u'Цены')}}}
-						</a>
-						<ul>
-							<li>
-								<a href="{{{languageName('preise1.html')}}}">
-									{{{choose('Ferienwohnung 1', 'Apartment 1', u'Апартамент 1')}}}
-								</a>
-							</li>
-							<li>
-								<a href="{{{languageName('preise2.html')}}}">
-									{{{choose('Ferienwohnung 2', 'Apartment 2', u'Апартамент 2')}}}
-								</a>
-							</li>
-						</ul>
+            <a href="{{{languageName('fewo1.html')}}}">
+              {{{choose('Ferienwohnung 1', 'Apartment 1', u'Апартамент 1')}}}
+            </a>
+          </li>
+          <li>
+            <a href="{{{languageName('fewo2.html')}}}">
+              {{{choose('Ferienwohnung 2', 'Apartment 2', u'Апартамент 2')}}}
+            </a>
 					</li>
 
 					<li>
