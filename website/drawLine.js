@@ -1,4 +1,3 @@
-
 ////////////////////////////////////////////////////////////////////////////////////
 //// get position
 //
@@ -103,6 +102,7 @@ function getElementAbsolutePos(element) {
 
 			var parentNode = element.parentNode;
 			var borderWidth = null;
+			var offsetParent = element.offsetParent;
 
 			while (offsetParent != null) {
 				res.x += offsetParent.offsetLeft;
