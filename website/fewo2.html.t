@@ -102,7 +102,7 @@
 										u'Price for Appartment 2 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 2 в Евро включая НДС на') \
 									}}}
-									2013
+									2014
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
@@ -113,16 +113,16 @@
 								<td></td>
 							</tr><tr>
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
-								<td>301,00</td>
-								<td>43,00</td>
+								<td>308,00</td>
+								<td>44,00</td>
 							</tr><tr>
 								<td>{{{choose('mit 3 Personen', u'3 People', u'3 человека')}}}</td>
-								<td>336,00</td>
-								<td>48,00</td>
+								<td>343,00</td>
+								<td>49,00</td>
 							</tr><tr>
 								<td>{{{choose('mit 4 Personen', u'4 People', u'4 человека')}}}</td>
-								<td>371,00</td>
-								<td>53,00</td>
+								<td>378,00</td>
+								<td>54,00</td>
 							</tr>
 						</tbody>
 					</table>

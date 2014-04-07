@@ -83,7 +83,7 @@
 										u'Price for Appartment 1 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 1 в Евро включая НДС на') \
 									}}}
-									2013
+									2014
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
@@ -94,8 +94,8 @@
 								<td></td>
 							</tr><tr>
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
-								<td>301,00</td>
-								<td>43,00</td>
+								<td>308,00</td>
+								<td>44,00</td>
 							</tr>
 						</tbody>
 					</table>
