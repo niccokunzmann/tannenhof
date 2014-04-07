@@ -104,3 +104,4 @@ nosetests.xml
 /website/_rundgang/left.bmp
 /website/_rundgang/right.bmp
 /userAndPassword.py
+/website/FileZilla.lnk
