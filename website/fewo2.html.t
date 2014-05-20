@@ -18,10 +18,10 @@
 							{{{choose(u'''mit Couch, Sesseln, 
 							Tischchen, Schrankwand, 
 							Sat-TV, Radio und Telefon  sowie
-							Küchenzeile mit Geschirrspüler, Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr
+							Küchenzeile mit <!--Geschirrspüler,--> Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr
 							und Essecke ''', u'''
-              with satellite-TV, radio, telephone, cupboard <br/> 
-              kitchenet with dishwasher, cooking plates, coffee maker, water boiler, toaster and refrigerator and dishes
+              with satellite-TV, radio, telephone, cupboard. <br/> 
+              Kitchenet with <!--dishwasher,--> cooking plates, coffee maker, water boiler, toaster, refrigerator and dishes
               ''')}}}
 						</div>
 					</div>
