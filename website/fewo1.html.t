@@ -83,7 +83,7 @@
 										u'Price for Appartment 1 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 1 в Евро включая НДС на') \
 									}}}
-									2014
+									2015
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
