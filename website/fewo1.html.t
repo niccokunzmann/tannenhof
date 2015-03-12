@@ -115,8 +115,9 @@
 							Эсли вы остаётесь на один или два дня, очистка стоит дополнительно 25€.''') \
 						}}}
 					</p>
+          
 					<p>
-						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" target="fewo1verfuegbarkeit">
+						<a name="verfuegbarkeit" href="https://www.google.com/calendar/embed?src=5o7c0km3kbc73csoeb79l59ruc%40group.calendar.google.com&ctz=Europe/Berlin" target="fewo1verfuegbarkeit">
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 1 (f&uuml;r 1 bis 2 Personen)', 
 								u'Availability of appartment 1 (for 1 to 2 people)', 
@@ -124,7 +125,7 @@
 							}}}
 						</a>						
 					</p>
-					<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=56" width="100%" height="800"></iframe>
-			
+					<iframe src="https://www.google.com/calendar/embed?src=5o7c0km3kbc73csoeb79l59ruc%40group.calendar.google.com&ctz=Europe/Berlin" width="100%" height="800"></iframe>
+			    
 		
 {{{include('bottom.html.t')}}}		

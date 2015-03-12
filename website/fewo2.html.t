@@ -143,8 +143,7 @@
 						}}}
 					</p>
 					<p>
-
-						<a name="verfuegbarkeit" href="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" target="fewo2verfuegbarkeit">
+						<a name="verfuegbarkeit" href="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" target="fewo2verfuegbarkeit">
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 1 bis 4 Personen)', 
 								u'Availability of appartment 2 (for 1 to 4 people)', 
@@ -152,7 +151,6 @@
 							}}}
 						</a>
 					</p>
-					<iframe src="http://www.tabarz.de/cms/subu/scripts/uk_verfuegbarkeit.php?uk_id=1126&amp;k_id=57" width="100%" height="800"></iframe>
-
+					<iframe src="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" width="100%" height="800"></iframe>
       
 {{{include('bottom.html.t')}}}
