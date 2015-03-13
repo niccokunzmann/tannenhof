@@ -125,7 +125,7 @@
 							}}}
 						</a>						
 					</p>
-					<iframe src="https://www.google.com/calendar/embed?src=5o7c0km3kbc73csoeb79l59ruc%40group.calendar.google.com&ctz=Europe/Berlin" width="100%" height="800"></iframe>
+					<iframe src="https://www.google.com/calendar/embed?title=Belegung%20der%20Ferienwohnung%201&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=5o7c0km3kbc73csoeb79l59ruc%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FBerlin" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 			    
 		
 {{{include('bottom.html.t')}}}		

@@ -151,6 +151,6 @@
 							}}}
 						</a>
 					</p>
-					<iframe src="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" width="100%" height="800"></iframe>
+					<iframe src="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
       
 {{{include('bottom.html.t')}}}
