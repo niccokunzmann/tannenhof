@@ -143,7 +143,7 @@
 						}}}
 					</p>
 					<p>
-						<a name="verfuegbarkeit" href="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" target="fewo2verfuegbarkeit">
+						<a name="verfuegbarkeit" href="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" target="fewo2verfuegbarkeit">
 							{{{choose(
 								u'Verf&uuml;gbarkeit der Ferienwohnung 2 (f&uuml;r 1 bis 4 Personen)', 
 								u'Availability of appartment 2 (for 1 to 4 people)', 
@@ -151,6 +151,6 @@
 							}}}
 						</a>
 					</p>
-					<iframe src="https://www.google.com/calendar/embed?src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&ctz=Europe/Berlin" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+					<iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ia59egqm2altaphbd74uu802po%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=Europe%2FBerlin" style=" border-width:0 " width="800" height="300" frameborder="0" scrolling="no"></iframe>
       
 {{{include('bottom.html.t')}}}
