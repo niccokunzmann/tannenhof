@@ -94,8 +94,8 @@
 								<td></td>
 							</tr><tr>
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
-								<td>308,00</td>
-								<td>44,00</td>
+								<td>315,00</td>
+								<td>45,00</td>
 							</tr>
 						</tbody>
 					</table>

@@ -113,16 +113,16 @@
 								<td></td>
 							</tr><tr>
 								<td>{{{choose('mit 2 Personen', u'2 People', u'2 человека')}}}</td>
-								<td>308,00</td>
-								<td>44,00</td>
+								<td>315,00</td>
+								<td>45,00</td>
 							</tr><tr>
 								<td>{{{choose('mit 3 Personen', u'3 People', u'3 человека')}}}</td>
-								<td>343,00</td>
-								<td>49,00</td>
+								<td>350,00</td>
+								<td>50,00</td>
 							</tr><tr>
 								<td>{{{choose('mit 4 Personen', u'4 People', u'4 человека')}}}</td>
-								<td>378,00</td>
-								<td>54,00</td>
+								<td>385,00</td>
+								<td>55,00</td>
 							</tr>
 						</tbody>
 					</table>
