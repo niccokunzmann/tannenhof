@@ -16,9 +16,9 @@
 							<div style="height:4em"></div>
 							<h1>{{{choose('Wohnzimmer', 'Living Room', 'Russisch')}}}</h1>
               {{{choose(u'''
-                Couch mit Sesseln und Tischchen, Sat-TV, Radio, Telefon <br/>
+                Couch mit Sesseln und Tischchen, Sat-TV, Radio <br/>
                 Küchenzeile mit Geschirrspüler, Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr''', u'''
-                With arm-chair, couch, satellite-TV, radio, telephone<br/>
+                With arm-chair, couch, satellite-TV, radio<br/>
                 Kitchenet with dishwasher, cooking plates, coffee maker, water heater, toaster, refrigerator and dishes''')}}}
 						</div>
 					</div>
@@ -83,7 +83,7 @@
 										u'Price for Appartment 1 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 1 в Евро включая НДС на') \
 									}}}
-									2016
+									2016/2017
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>

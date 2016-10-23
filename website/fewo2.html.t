@@ -17,7 +17,7 @@
 							<h1>{{{choose('Wohnzimmer', 'Living Room', 'Russisch')}}}</h1>
 							{{{choose(u'''mit Couch, Sesseln, 
 							Tischchen, Schrankwand, 
-							Sat-TV, Radio und Telefon  sowie
+							Sat-TV und Radio sowie
 							Küchenzeile mit <!--Geschirrspüler,--> Kochplatten, Kaffeemaschine, Wasserkocher, Toaster, Kühlschrank und Geschirr
 							und Essecke ''', u'''
               with satellite-TV, radio, telephone, cupboard. <br/> 
@@ -102,7 +102,7 @@
 										u'Price for Appartment 2 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 2 в Евро включая НДС на') \
 									}}}
-									2016
+									2016/2017
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
