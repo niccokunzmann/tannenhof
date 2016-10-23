@@ -22,6 +22,8 @@ except NameError:
     here = '.'
 else:
     here = os.path.dirname(__file__)
+    if not here:
+        here = "."
 
 outputDir = os.path.join(here, '../output')
 inputDir = here
