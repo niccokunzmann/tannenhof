@@ -29,7 +29,7 @@
 				<div class="spalteLinks">
 					<div class="stueck">
 						<div class="bild">
-							<img src="bilder/fewo1/essecke.jpg" alt="">
+							<img src="bilder/fewo1/fernseher.jpg" alt="">
 						</div>
 					</div>
 				</div>
