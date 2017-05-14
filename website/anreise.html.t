@@ -17,7 +17,7 @@
 										</a>
 								</td>
 								<td>
-									<!-- Anfahrt in Tabarz -->
+									<!-- Anfahrt in Bad Tabarz -->
 										<a href="http://maps.google.de/maps?f=d&amp;source=embed&amp;saddr=A4&amp;daddr=Alexandrinenweg&amp;hl={{{language}}}&amp;geocode=FZH6CAMddt-gAA%3BFSBKCAMdMHmgAA&amp;aq=t&amp;sll=50.900976,10.524731&amp;sspn=0.063008,0.169086&amp;mra=dme&amp;mrsp=0&amp;sz=13&amp;ie=UTF8&amp;t=m&amp;ll=50.87439,10.520911&amp;spn=0.009478,0.018239&amp;z=15" style="color:#0000FF;text-align:left" target="anfahrt2">
 											<img src="bilder/anreise/tabarz.png" class="googlemapsframe"/>
 										</a>
@@ -31,7 +31,7 @@
 								</td>
 								<td>
 									<a href="http://maps.google.de/maps?f=d&amp;source=embed&amp;saddr=A4&amp;daddr=Alexandrinenweg&amp;hl={{{language}}}&amp;geocode=FZH6CAMddt-gAA%3BFSBKCAMdMHmgAA&amp;aq=t&amp;sll=50.900976,10.524731&amp;sspn=0.063008,0.169086&amp;mra=dme&amp;mrsp=0&amp;sz=13&amp;ie=UTF8&amp;t=m&amp;ll=50.87439,10.520911&amp;spn=0.009478,0.018239&amp;z=15" style="color:#0000FF;text-align:left" target="anfahrt2">
-										{{{choose('Anfahrt in Tabarz', 'Directions in Tabarz', u'Приезд в Табарце')}}}
+										{{{choose('Anfahrt in Bad Tabarz', 'Directions in Bad Tabarz', u'Приезд в Табарце')}}}
 									</a>
 								</td>
 						</tbody>

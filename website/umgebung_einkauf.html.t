@@ -7,7 +7,7 @@
 						<h1>Geschäfte und Gaststätten</h1>
 						<a name="kultur"></a>
 						<p>
-							Der Tannenhof befindet sich in grüner Lage nur wenige Schritte entfernt vom Ortszentrum Tabarz.
+							Der Tannenhof befindet sich in grüner Lage nur wenige Schritte entfernt vom Ortszentrum Bad Tabarz.
 							Verschiedene Geschäfte wie z. B. Supermarkt, Bäcker, Fleischer oder Drogerie können Sie zu Fuß erreichen.
 							Gleichfalls in der Nähe befinden sich eine Apotheke und Geldautomaten.
 						</p>

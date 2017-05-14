@@ -7,7 +7,7 @@
 
 					<div class="impressum">Zimmerbergstr. 7</div>
 
-					<div class="impressum">D-99891 Tabarz</div>
+					<div class="impressum">D-99891 Bad Tabarz</div>
 
 					<div class="impressum">Tel.: +49 (0) 36259 / 512 00</div>
 

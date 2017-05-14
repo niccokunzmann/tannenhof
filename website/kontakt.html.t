@@ -8,7 +8,7 @@
 
 					<div class="kontakt">Zimmerbergstr. 7</div>
 					
-					<div class="kontakt">{{{choose(u'', u'Germany ', u'Геримания ')}}}99891 Tabarz</div>
+					<div class="kontakt">{{{choose(u'', u'Germany ', u'Геримания ')}}}99891 Bad Tabarz</div>
 
 					<div class="kontakt">{{{choose('Tel.: 0', 'Tel.: +49 ', u'телефон: +49 ')}}}36259 / 51200</div>
 

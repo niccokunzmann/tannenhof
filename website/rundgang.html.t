@@ -2,7 +2,7 @@
 {{{include('helper/rundgang.html.t')}}}
 
 
-{{{rundgang('Downhill in Tabarz - Die Sprungschanze vor dem Ziel', 'downhill1.jpg')}}}
+{{{rundgang('Downhill in Bad Tabarz - Die Sprungschanze vor dem Ziel', 'downhill1.jpg')}}}
 
 <script type="text/javascript">
 <!--

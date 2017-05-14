@@ -6,7 +6,7 @@
 						<h1>Kultur</h1>
 						<a name="sehenswuerdigkeiten"></a>
 						<p>
-							Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
+							Bad Tabarz ist idealer Ausgangspunkt für Ausflüge nach Eisenach mit der 
 							{{{floatLink(	"http://www.wartburg-eisenach.de/frame_wn.htm",	
 											"http://upload.wikimedia.org/wikipedia/commons/3/32/Wartburg_von_Br%C3%BCcke.jpg", 
 											u"Wartburg")}}}, 
@@ -27,7 +27,7 @@
 						<p>
 							Die 
 							<!-- http://www.tabarz.de/cms/fileadmin/templates/tabarz/img/logo-kneipp-kurort.png -->
-							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">Kurgesellschaft&nbsp;Tabarz</a>
+							<a href="http://www.tabarz.de/cms/kneipp-kurort-tabarz/touristinformation/">Kurgesellschaft&nbsp;Bad&nbsp;Tabarz</a>
 							bietet ganzjährig ein attraktives Veranstaltungsprogramm für alle Gäste. 
 						</p>
 					</div>
