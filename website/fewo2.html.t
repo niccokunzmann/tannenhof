@@ -102,7 +102,7 @@
 										u'Price for Appartment 2 in &euro; (VAT incl.) for', \
 										u'Расценки для апартамента 2 в Евро включая НДС на') \
 									}}}
-									2017
+									2018
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
