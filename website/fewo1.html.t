@@ -79,11 +79,11 @@
 						<tbody>
 							<tr>
 								<td colspan="4" class="heading">{{{choose(	\
-										u'Preise f&uuml;r Ferienwohnung 1 in &#8364; incl. MwSt. zzgl. Kurtaxe f&uuml;r', \
-										u'Price for Appartment 1 in &euro; (VAT incl.) for', \
-										u'Расценки для апартамента 1 в Евро включая НДС на') \
+										u'Preise f&uuml;r Ferienwohnung 1 in &#8364; zzgl. Kurtaxe f&uuml;r', \
+										u'Price for Appartment 1 in &euro; for', \
+										u'Расценки для апартамента 1 в Евро на') \
 									}}}
-									2018
+									2019
 									{{{choose('', '', u'г.')}}}
 								</td>
 							</tr>
